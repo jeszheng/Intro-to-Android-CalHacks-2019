@@ -34,27 +34,31 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Enter your name" />
+            android:hint="Enter your name"
+            android:id="@+id/name_edit_text"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:hint="Enter your email to me here!"
             android:background="@drawable/edit_text_background"
-            />
+            android:id="@+id/email_edit_text" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Send email!" />
+            android:text="Send email!"
+            android:id="@+id/email_button"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="See my Facebook Profile!" />
+            android:text="See my Facebook Profile!"
+            android:id="@+id/facebook_profile_button"
+            android:onClick="goToFacebookProfile"/>
 
     </LinearLayout>
 </ScrollView>
