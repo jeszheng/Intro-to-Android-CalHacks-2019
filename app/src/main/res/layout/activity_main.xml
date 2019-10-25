@@ -39,8 +39,22 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@android:color/transparent"
-            android:hint="Enter your email to me here!" />
+            android:hint="Enter your email to me here!"
+            android:background="@drawable/edit_text_background"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Send email!" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="See my Facebook Profile!" />
 
     </LinearLayout>
 </ScrollView>
