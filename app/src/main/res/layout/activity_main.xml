@@ -5,14 +5,14 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context="com.sujeeth.calhacksstarterapp.MainActivity"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Georgia Tech Buzz"
+            android:text="@string/georgia_tech_buzz"
             android:layout_gravity="center"
             android:textAlignment="center"/>
 
@@ -25,8 +25,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contact me via email!"
-            android:textSize="20dp"
+            android:text="@string/contact_me_via_email"
+            android:textSize="20sp"
             android:layout_gravity="center"/>
 
         <EditText
@@ -34,13 +34,13 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Enter your name"
+            android:hint="@string/enter_your_name"
             android:id="@+id/name_edit_text"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:hint="Enter your email to me here!"
+            android:hint="@string/enter_your_email_to_me_here"
             android:background="@drawable/edit_text_background"
             android:id="@+id/email_edit_text" />
 
@@ -49,14 +49,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Send email!"
+            android:text="@string/send_email"
             android:id="@+id/email_button"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="See my Facebook Profile!"
+            android:text="@string/see_my_facebook_profile"
             android:id="@+id/facebook_profile_button"
             android:onClick="goToFacebookProfile"/>
 

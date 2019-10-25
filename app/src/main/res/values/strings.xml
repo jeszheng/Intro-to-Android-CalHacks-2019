@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CalHacksStarterApp</string>
+    <string name="georgia_tech_buzz">Georgia Tech Buzz</string>
+    <string name="contact_me_via_email">Contact me via email!</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email_to_me_here">Enter your email to me here!</string>
+    <string name="send_email">Send email!</string>
+    <string name="see_my_facebook_profile">See my Facebook Profile!</string>
 </resources>
