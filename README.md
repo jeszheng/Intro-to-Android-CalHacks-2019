@@ -274,18 +274,31 @@ Now, in activity_main.xml we set **android:onClick="goToFacebookProfile"** withi
 
 Now when you click on "See my Facebook Profile!" in the app, the specified URL you should come up.
 
-
 #### B. Coding Challenge 😮
 
 Create an additional EditText that says "Open URL" that allows the user to manually enter in a URL of their choice, and upon clicking "See my Facebook Profile!" they would visit the specified URL.
 
-### Step 8. Add Firebase
+### Step 8. Add Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/82829f92ac01796dbef979d87582da8d674c9c7b)
 
-### Step 9. Add Write to Firebase
 
-### Step 10. Finishing Touches
+### Step 9. Add Write to Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31)
+
+### Step 10. Finishing Touches 
 
 
 ## Additional Resources
 
 The codelab I recommend the most for learning about Android in-depth is the one provided by Google themselves: [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2). It is well-documented, maintained and kept-up-to-date, and even has a series of accompanying [video lectures](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB). 
+
+A select list of interesting tutorials:
+
+ - [Using the Debugger](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/index.html?index=../../android-training#0)
+- [Input Controls](https://codelabs.developers.google.com/codelabs/android-training-input-controls/index.html?index=../../android-training#0)
+- [Menus and Pickers](https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/index.html?index=../../android-training#0)
+- [Clickable Images](https://codelabs.developers.google.com/codelabs/android-training-clickable-images/index.html?index=../../android-training#0)
+- [User Navigation](https://codelabs.developers.google.com/codelabs/android-training-provide-user-navigation/index.html?index=../../android-training#0)
+- [Shared Preferences](https://codelabs.developers.google.com/codelabs/android-training-shared-preferences/index.html?index=../../android-training#0) (Storing data for an app locally on a device)
+- [App Settings](https://codelabs.developers.google.com/codelabs/android-training-adding-settings-to-app/index.html?index=../../android-training#0)
+- [Notifications](https://codelabs.developers.google.com/codelabs/android-training-notifications/index.html?index=../../android-training#0)
+- [Cards and Colors](https://codelabs.developers.google.com/codelabs/android-training-cards-and-colors/index.html?index=../../android-training#0)
+- [Drawables, Styles, and Themes](https://codelabs.developers.google.com/codelabs/android-training-drawables-styles-and-themes/index.html?index=../../android-training#0)
