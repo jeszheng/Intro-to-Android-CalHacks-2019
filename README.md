@@ -23,7 +23,10 @@ The application we will build today is a simple app that shows a user profile an
 
 If you have a physical Android phone to test with, follow the setup instructions [here]. (https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5). Otherwise, briefly read on how to use a Android Virtual Device (AVD) [here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4).
 
-### Step 1. Get Hello World Set Up [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/dd2e1fbcb38c334a330edc21e16572dbf7e1bb77)
+### Step 1. Get Hello World Set Up and Background on Android [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/dd2e1fbcb38c334a330edc21e16572dbf7e1bb77)
+
+#### A. Getting Started
+
 Open Android Studio, start a new project, and choose "Empty Activity". Name the project a cool name like "CalHacksStarterApp". Click finish, and wait for the Gradle Sync and build to complete.
 
 ![](https://lh3.googleusercontent.com/GtbctSawYyI5xqmUegtEsIfqr8gR6ECdhlVLns5rCfCmx6soZSLmkZNozpSDxRT58YusxgdH7htsa7Ib4yGNPHqjb0bvdRB9oeYK5S2GmIEorkutcZ2HMrQJ9G4Gq84bfZ1VHMPkh0i1IpF5aGUO65BU16MWaYfUrXOh85CfTD5JRCIZkCs5VqL1Py_C35-g2cE88fNwk3yGp5p43RnuQBu6mNXKdt8CYk3C7vid2qIiSHMOwOPIKd6p6knz6ssA7d0fBiXETvr0UfxpbFHA9DnEiAs0n1D6JlBzQf6Frdo2uV9AjlGzkqm_RJerh-aY-wS-bg6VeurxkCUiq3zmBlauvZ8kATZ9B0Q4_9zs3LEDywAX9wqw2ES459HiW6xJ8ixjg4e4QE9YURS83Hnw0agvnmx51HM4Xs_6bsmdoKITdwWId0vtd4A6tPv5dCdszoE2iZ62AXZsKd-Nu3mUS-2qkOQ_sabImgF8n1mPX6DCR7nKApNLLlFtv2GZvKkiAowj-qGb1WgW--661Tv2xmwuSViV90frIG6wPQDCS77kA-harvcFaGsX1XydD_QH6XVIurori05SnSXp1riBL5edb1Y5LnlXBSdxfb_Ll1ADq25XABwCuiF4lfmeH6upBppKSGnscfsWCmWAy-awCSOpS39Zij-BDTNiGHdt69A7NPuAZSK7qQOs0Kmwf79lqYGIzO3Xqixfs8IxT3fucHvW8QUBrBQ0p--6J2_rE8OmiN656g=w2310-h1702-no)
@@ -33,6 +36,16 @@ Open Android Studio, start a new project, and choose "Empty Activity". Name the 
 Let's try running the app to see what we have now. We can use an [emulator device](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4) or a [physical android phone](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5) to test this. This is what we should see:
 
 ![](https://lh3.googleusercontent.com/SGItDJWEShfRcVNJ8Iy0V2t7qmTf8_SQcpwDp1T57ce8JEVZM0yt5mFVJWWb7yfyniXqOAKIhZWcdr7fV9OB1bBOXGQpY-IW4KgZS4JRPaXdcEY8OzaKfki4zuA-1pQ6vRXjiraIEjj-LvKKEATvOoOeWjXzJ7DSAYTsbt13TWUi3prWfpzER_9mK31ym1wrtG0Fe-QgPEPPde_SMqHlhaGDvCc7O1GD8BBRjOozdS2CcIf6o64VZmzsKDMOprrVj8-rSgplPJ4TMOxrD3g0hAhJXmNjgCcInUvdltZRYbVWgYIWmmVCCTPE6LRsMyJWEfV8rDznm4EUz79hg6j1XGYgPAAM4TxwT-m0Zmm9ETaf8K3jgLHtH0DiJMWD_irObKaeAShGBdfqJbZEzPzd2x8JF9dx5fHRIzMdY--PydXexklO3UmmK9GCq7j4ORCQtsY50bwK-RqCZJ6L-pDrUaijQAmYmO9AUph2YdM9vr5Hm-SuDyiJSJ6XXVQPDZchsYomv6F53n3LtrsXdDgpD1__i7h5vWtxgCz4xv0cMNnoo4qRvBD_TE9MPoZDo87OP6GeBGGBNDQ6H7ANAIEI82N59SKBiSEhM9VhUBtWLxM7nQc0HegT5BNgNxXL8RnpogEfgT5FcnObvs9IZlwfjbELENS473gTELFaPXOGMVT19Z1JzqEQHYNPgFfpLzA09Fgy997gHjGbxBEChAkBfF4qlk-QHF_BySFzFhTD9ajIEFtIjw=w2993-h1778-no)
+
+#### B. Some background on the structure of Android Applications:
+
+An [**Activity**](https://developer.android.com/reference/android/app/Activity) is a single, focused thing that the user can do. Almost all activities interact with the user, so the Activity class takes care of creating a window for you in which you can place your UI. In most cases, activities are often presented to the user as full-screen windows, so for now you can think of activities as "pages" in an application.
+
+A [**View**](https://developer.android.com/reference/android/view/View) is the basic building block for user interface components. A View occupies a rectangular area on the screen and is responsible for drawing and event handling. View is the base class for _widgets_, which are used to create interactive UI components ([Button](https://developer.android.com/reference/android/widget/Button), [TextView](https://developer.android.com/reference/android/widget/TextView.html), [ScrollView](https://developer.android.com/reference/android/widget/ScrollView), [EditText](https://developer.android.com/reference/android/widget/EditText), [RecyclerView](https://developer.android.com/reference/android/support/v7/widget/RecyclerView) etc). You can even create custom views. Views can encapsualte one another.
+
+A [**Layout**](https://developer.android.com/guide/topics/ui/declaring-layout) is how you organize your views within an Activity.  A layout defines the structure for a user interface in your app, such as in an [activity](https://developer.android.com/guide/components/activities.html). All elements in the layout are built using a hierarchy of [View](https://developer.android.com/reference/android/view/View.html) and [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup.html) objects.
+
+![](https://developer.android.com/images/viewgroup_2x.png)
 
 ### Step 2. Use Linear Layout and introduce Text Alignment/Gravity [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/9a1c6b6975b78a0c908998f48ac777134827ff88)
 
@@ -102,6 +115,23 @@ Now the app should look like this:
 ![](https://lh3.googleusercontent.com/Kw5BEZTt6PAW0VB_pVOJ51mmTODBmD3Iorl86unDBg2y95jIfEGpMCac7WwNhOQUZg_aZB8WpMNI4BPJcozmlFzehThg2H9qnq7fCrUzvRlAo8C4-48pPUOwH-NVxEP0zGDunqLqMrfYzQ0sjXmCzM9dsucNtcgu7JOydxLvDIsj-0vzGSD0pWwtogxGGQmDgB8PTvyZeEPbLzbhkTVLmfnxb8576cSocnkMy25m9H-FFbjP_5Xnqb8SbAI8fTx6TIjSufFH1pqCEveKTwjZqPJncZWRPaHerCIZ1bHbav5XOv5H23FHKM6rPkAW3IH4uwZhWFNJM8QJy6PKlOrGVuKHMUOCwMglV19In4XeCPWwFcNlA9oQrjag0id7KUf7sUqRYv6ZtgN7FTFmk9F5BKZmTwGLFods3YkkUdiU3km1MqJT2iOW1OELZFOTiS8CqDLMc41skZtH2xEheKFAgTkIYh3hazMIdJYeO189PvKRTFywx45e9n85OC7--pSSnH_Rx8x056hO5_fXSq_HQQAtaRVFCguxNz17EP8p3G5tKeIWsoTI-TLFayRqQ4sVlvDOKgAeY43cJrUwsP89OyhcwWlYdzW-Pq1Lf6Iwjz8083NsYqW4ewJt912rMdDvJEPBr8tUyJ8O5Cr76jypXx7hnWvChIYzaRH1MC3Zw5vgFsWQ7MYUN6Y6sOTGAKpd0JhzENE66Ek-is5yKNkkPjyit8C8q0qRMG8lb_RjJCda8IPQuw=w558-h311-no)
 
 ### Step 5. Introduce ScrollView and Minor Changes [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/15888b974970aa742af50563165f354e9f3a1db1)
+
+#### A. Set the attribute android:windowSoftInputMode to state "stateHidden" in the activity in AndroidManifest.xml
+
+The [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/manifest-intro) file is a file in every Android app that describes essential information about your app to the Android build tools, the Android operating system, and Google Play.
+
+"android:windowSoftInputMode" controls the state of the soft keyboard — whether it is hidden or visible — when the activity becomes the focus of user attention. You can find additional details [here](https://developer.android.com/guide/topics/manifest/activity-element).
+
+![](https://lh3.googleusercontent.com/wtcvwDrygO1PDLrs0nybVjSbZVhlndhbNCpf9mMeZcPVhhI1c9IpolHnubzrF-3YjU6oQ-yNKuFaMwBh9VZFRLpnerxRNqYiRmTHaSG42opG0eFzxLIuPRyNaEO0ugwSycUMl0ggULzbq2KGs0Ae5UNW0_u5YwZ2CUYJmSCN_8L400lNYvKeyuqhioNgXZI6i5or-zg-r8R1jXhQ52KOobqa5H1izfWjlBJjy7u6vYzgBqHI4F1EXAMNbdd5jo0RrSpd1IF2VxpAlfE7al34Apq6EXoOH1tQHsRk39tsTFHy7PBNlspHNWpNjPceq2FYeFbcnWg6qvWvdE6u40vfxAI4dUqAfv2vuqXKKAkgI9KVnNcVpCpqWq4rq2_wKLCaGn4aLXgtaPdObZL57js6_lvqn5-qDo7JryN6vnUcmCLIsaMEtizGz8EHtKjD8KcgdxIfuqN5zMYZAtzPDst0n5YIbLTS66jNVaXLcfIxOwgmkPjWWXHxsddKaIrFqwxDnpTETAvZ-5COr_n7Kr0BdaUXyCazmWh0egd8YD03DbKPVVjsiITcjcKM0yOUHGK4bRbRHGKzv2gDuxFdv0edfzaqB-UfCQxSPt-2PFEyOV_QMdRHIqm7Rl5-3hlvsaKuF_0y5Ysui4x9h5F1dGCH9v6RwbieLIBUJMUqQdyE9YvzpaGMQVnVxYk01stK7rHbPkdIXzSpIjXsnpdmAg_v0s9iVfnbdrXcS4uCeL9EWCUCah9Yrg=w2781-h1136-no)
+
+#### B. Add another EditText with the hint message "Enter your email to me here!"
+
+This should be relatively straightforward -- you can figure it out ;) 
+
+#### C. Surround the LinearLayout with a ScrollView.
+
+An Android ScrollView 
+
 
 ### Step 6. Introduce Email Intent [link](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
 
