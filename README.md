@@ -316,10 +316,140 @@ Now navigate back to Android Studio and click the button "Add the Realtime Datab
 This step should be already handled for you. Please signal Sujeeth if you run into an error.
 
 
-### Step 9. Add Write to Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31)
+### Step 9. Add Write to Firebase [[link]]([https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31))  
 
-[In Progress]
+*9A.* Writing basic data to our database.
 
+Now we'll be writing data to our firebase database we created in the last step.
+
+In the same right nav bar as Step 8, you will see:
+
+4. "Write to your database."
+
+Followed by some code.
+
+~~~
+// Write a message to the database
+FirebaseDatabase database = FirebaseDatabase.getInstance();
+DatabaseReference myRef = database.getReference("message");
+
+myRef.setValue("Hello, World!");
+~~~
+Let's go through this line by line so we understand what's going on.
+
+1.
+~~~
+FirebaseDatabase database = FirebaseDatabase.getInstance();
+~~~
+In this step, we are getting an "instance" of the database we created in the previous step. This way we can reference it in our code.
+
+2.
+~~~
+DatabaseReference myRef = database.getReference("message");
+~~~
+This line gets a reference to a particular path in your database, which you can read or write to. In this case we're getting a reference to "message", you can also nest objects further, for example by replacing it with "message/user1/". Another way to think about this, is that it's a "key" or "path" to a location in your database.
+
+3.
+~~~
+myRef.setValue("Hello, World!");
+~~~
+This last line takes the reference we created in the previous line, and sets the value of the the "key" or "path" to the value you specify. In this case we would see that under the key "message" there would be a value of "Hello, World!".
+
+*Now where do we actually put this code?*
+
+Since we want to make sure we get a reference to our database as soon as possible, we should add this inside of our "OnCreate" method inside of the MainActivity.java class.
+
+After we paste this code in underneath our existing code, we can run our code. You'll notice that as soon as the app opens, our firebase console will update with the reference and the message in it!
+
+*9B.* Reading from our database
+
+The following is a manufactured scenario about how we would get updates from our realtime database.
+
+Let's pretend you have a fully functioning app, and we want to update our emailEditText whenever there's an update on the database, in real time. This means that if the "message" ref value changes from "Hello, World!" to "Hi Mom!", our email edit text would pick up that change immediately and populate our emailEditText with that new value.
+
+For this, we want to add some sort of an event listener to our database reference, this way we can be notified when the database value changes. Luckily, Firebase has a method for this (addValueEventListener). We'll also add a ValueEventListener which will give us some methods we can override to do our bidding 😈! The following is the change we want to add:
+~~~
+myRef.addValueEventListener(new ValueEventListener() { 
+...
+});
+~~~
+
+Now we just need to use some methods (specifically onDataChange, and onCancelled) in order to specify what we do when the data changes, or we failed to read the data. Our code will finally look like the following:
+
+~~~
+myRef.addValueEventListener(new ValueEventListener() {  
+    @Override  
+  public void onDataChange(DataSnapshot dataSnapshot) {  
+        // This method is called once with the initial value and again  
+		// whenever data at this location is updated.  String value = dataSnapshot.getValue(String.class);  
+	    emailEditText.setText(value); // example of data flow  
+	    Log.d("MyRefDataChanged", "Value is: " + value);  
+  }  
+  
+    @Override  
+  public void onCancelled(DatabaseError error) {  
+        // Failed to read value  
+	    Log.w("MyRefFailedToReadValue", "Failed to read value.", error.toException());  
+  }  
+});
+~~~
+
+Inside of onDataChange, we get a snapshot of the data, and from which, we'll be getting the new string value that the reference contains.
+
+If you run your app and check out the firebase, you can edit the message reference value and see the value change on your android app!
+
+*9C.* Writing to the database.
+
+NOTE: please comment out the code in step 9B, otherwise it will cause looping errors.
+
+Finally, we want to know how to write to our database. This is very similar to adding an event listener our button and reading from the database.
+
+Much like how we added an onClickListener to our emailButton we will add one to our emailEditText, but instead of a click listener, we'll make it a "textChangedListener". The code will look like the following:
+
+~~~
+// Write to database  
+emailEditText.addTextChangedListener(new TextWatcher() {  
+    @Override  
+  public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {  
+  
+    }  
+  
+    @Override  
+  public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {  
+    }  
+  
+    @Override  
+  public void afterTextChanged(Editable editable) {  
+  }  
+});
+~~~
+
+This gives us a number of overridable methods that we can then use to update our database. Let's add in an update to our database after the text has changed in our emailEditText component.
+
+Our final code will look like this:
+
+~~~
+// Write to database  
+emailEditText.addTextChangedListener(new TextWatcher() {  
+    @Override  
+  public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {  
+  
+    }  
+  
+    @Override  
+  public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {  
+    }  
+  
+    @Override  
+  public void afterTextChanged(Editable editable) {  
+        myRef.setValue(editable.toString());  
+  }  
+});
+~~~
+
+Now when we run our app and make changes to our emailEditText, we'll see the value be updated on our database!
+
+For more information, check out the  [firebase api]([https://firebase.google.com/docs/reference/js/firebase.database.Reference?fbclid=IwAR28BFjQshrJf0BTUR6mPLezX9-a-p7y5_RdA5T2qmrBX2ybSyjlWAe7kiY](https://firebase.google.com/docs/reference/js/firebase.database.Reference?fbclid=IwAR28BFjQshrJf0BTUR6mPLezX9-a-p7y5_RdA5T2qmrBX2ybSyjlWAe7kiY))
 
 
 ### Step 10. Finishing Touches [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/1ec181e8b4e6c07fd8c0fd47b3fa8f11fb0d3bd4)
@@ -350,7 +480,7 @@ The codelab I recommend the most for learning about Android in-depth is the one 
 
 A select list of interesting tutorials:
 
- - [Using the Debugger](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/index.html?index=../../android-training#0)
+- [Using the Debugger](https://codelabs.developers.google.com/codelabs/android-training-using-debugger/index.html?index=../../android-training#0)
 - [Input Controls](https://codelabs.developers.google.com/codelabs/android-training-input-controls/index.html?index=../../android-training#0)
 - [Menus and Pickers](https://codelabs.developers.google.com/codelabs/android-training-menus-and-pickers/index.html?index=../../android-training#0)
 - [Clickable Images](https://codelabs.developers.google.com/codelabs/android-training-clickable-images/index.html?index=../../android-training#0)
