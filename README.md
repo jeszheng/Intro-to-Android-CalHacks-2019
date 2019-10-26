@@ -250,6 +250,35 @@ Create an additional EditText that says "Recipient Email" that allows the user t
 
 ### Step 7B. Introduce Facebook link Intent [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/f4bac671e3dba8f20152fa2890bafc3a3d851df1)
 
+Now we are going to set the Facebook Profile Button to open a facebook profile. This is really just opening a webpage after we have hardcoded a URL, it doesn't actually have anything to do specifically with Facebook itself.
+
+Side note: The approach shown here is a bit hacky as we don't go through the process of making an instance variable for the facebook button. It works, but it's not good code style. For a hackathon project this is probably okay, but it definitely wouldn't pass code review at Google ;) 
+
+#### A. Create a method goToFacebookProfile()
+
+In Main Activity, we create a new method goToFacebookProfile() and that builds a new Intent with the profile of [Oski the Bear](https://www.facebook.com/oski.thebear.5).
+~~~
+public void goToFacebookProfile(View view) {
+	Uri uri = Uri.parse("https://www.facebook.com/oski.thebear.5"); // missing 'http://' will cause crash
+	Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+	startActivity(intent);
+}
+~~~
+
+[Intent.ACTION_VIEW](https://developer.android.com/reference/android/content/Intent.html#ACTION_VIEW) brings up a window with the specified URI.
+
+Now, in activity_main.xml we set **android:onClick="goToFacebookProfile"** within the Button with the id **facebook_profile_button**.
+
+
+![](https://lh3.googleusercontent.com/Cby3_4UMotPQG_dAVbok2X3L7TsAdViFVW_LUjMfkDk5j9KJgM34Oar7JDhZb7i90oXkIJnE_HDcn5IwmpLyp-algz5_ZxIk7hUxKPSMHpqBbRAyFpTuuhXCC4rb_iAXgA2ll6HUNYtrcpLMrXOv2xr8U-hoyFn2t4eLZ9GVE5bnktpnPJQQHfWMV5E1AYXZ1QtEXNklGKA6_udw-qzHUufkh9OfKsp9zFpkXKQKKpveZaWue61hEKerDh_74v2Ms6fTeFtQnfXBy5VY4OZidMAZ9pKNmifxggRZKlirfrJccBVRaP0a3I0H9jvSnQO-rgzjuZT3AwxrNBwoZlkHiNinoqDPtHVUHyVQx323SFHBlpRyCAKPvGWgqoJ_SKeqbCSKiGeQDrYMRwOh7vGJVVMM5mno8qwU_9eL2EBbocjf9FSy6vO07WkuKu24fzpFDLTsKA7NJCnrEk7fdrHl3Y7XoZWla67WLx3PywssiwSV-RATMnU7qZUUno39y2pbGiz3RFjTx-wI6exfOF8_OSoTAhG5KL9FmNeBQPQ9s9MQuEDrkxtfkJgu_D2INJ_Nrj9v60UAXH40iBuPTQze9pQKZD-azb3JZONcgWoQO8tGdu4VznFe4L92a0dw_5gq7Ld66oPujX65roA-ILCJJly_89TsE7Ni7IGWlRPMU4WLQ5t-e3hTKqfNpDVoUFfBITrWgkj5dHYBNogwS5ETHF3IBrNkQUz8NGcoa2t1ybOBnAJm_Q=w2791-h1536-no)
+
+Now when you click on "See my Facebook Profile!" in the app, the specified URL you should come up.
+
+
+#### B. Coding Challenge 😮
+
+Create an additional EditText that says "Open URL" that allows the user to manually enter in a URL of their choice, and upon clicking "See my Facebook Profile!" they would visit the specified URL.
+
 ### Step 8. Add Firebase
 
 ### Step 9. Add Write to Firebase
@@ -260,5 +289,3 @@ Create an additional EditText that says "Recipient Email" that allows the user t
 ## Additional Resources
 
 The codelab I recommend the most for learning about Android in-depth is the one provided by Google themselves: [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2). It is well-documented, maintained and kept-up-to-date, and even has a series of accompanying [video lectures](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB). 
-
-Additional Notable concepts: 
