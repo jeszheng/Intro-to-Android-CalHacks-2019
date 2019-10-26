@@ -78,18 +78,36 @@ An [ImageView](https://developer.android.com/reference/android/widget/ImageView)
 Your app should look like this:
 ![](https://lh3.googleusercontent.com/mamc6rgBrg8syP9AFYNuq_uZwtA6yJzFumuCy3gaPg7sp0TtL9_7_0igWnMWIKjL9smN8ds7yW7v0dz8D8KV2b9fp1MwnUUxFMRa9J33dj1Sk2g7Aph5i4HM3FzBn_ymfjJMxkqzbxy91VQ3iseBxd5-MhYL5jjxtJ3sQswP13MKM1BQlMXf-gcblBUpxJ9mpVTOPnDZ8x4x-bm_w6rMscgCTxoYfa7Zs7_Dg3vvuXkRwsT3kcm7Y9dAIu42RObKRfsjFlu3jSJovRKRhu3sT-rSW6sobLPb0cdGN431Sm9VAvCyjYNte_lVaJiQjjr6iScOYeCnS43DN-zYKk2G65VLYZpOmDKHGSHhMorxFIcnKkdef53FHl3OHMmGoKqO-mx4fXC0WA36WYPS-QzyFBXOG584WRVtDFBY7tghGSb7GrZzSYO6Ijy9sIZ1Y7mWZbBTMdq7HokwOYKzmBxlLArqFA9cJQ9uXSrW9C9uUepOneyZDOkx0tQQ8tapFNV3Axnn3ev-bSxl2Gc0iTXwg6dtQM-CLKoKLCUW1TO_t0VpBJpPtJvqksScflnD_7XgOYYPTgzIIcah-xp8ipKgTfLmsiyWZx81zZBAvP1EjSrFCljtHNOXlLziwMuXiPufRmBh3ETLqCPcAWfNzv6Otk1odhBelOr8wZE8i8tasJFXdjOrU6dkuY03=w2852-h1714-no)
 
+### Step 4. Introduce Edit Text [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/d6fbdd8e8bb1b2dc929320375c9708856de4b7ab)
 
-### Step 4. Introduce Edit Text
+#### A. Change the string within the existing TextView to something more relevant.
 
-### Step 5. Introduce ScrollView and Minor Changes
+I chose "Oski the Bear".
 
-### Step 6. Introduce Email Intent
+![](https://lh3.googleusercontent.com/2ddpqb5T_OUpfzy09zMpcw9K8fWv73keZi5AY5htYevSWr9tSI30McJMcadbuRJall3ibVSJ-rigyJW6lwj0_pyRU0iNaYelD_ZL1XCsqn2cLx9B6fS5hk8-UUDZ4Q0RJe3JrQp0ihjM-XRxx0VurxgAJ4X2Ugs0ivRNvq-zDEW3WAzS_RZb6JEUvXHNbr21Fq_0hAwxyh-qf5LCbSR1UmBrEtec_kvIcM39MxUFYqsX_G6N0w_Lk4lxG9LcH7I-qpWe_MZs4WnxgsWPFoHjlP9jekWiE4Dj4MiN-lazAIISP1mbSijO0-TL82xABJvU2AjTlr13tvua_HYoZ91TSQH2w75R_IXyLlvA3_mJJcisnKMA-u3Bebi1ue28xoA139noYcZgFS2DWTtlkAMK2PNHjWlSePGHNT5RnRLCZB3wM7cM2YTSQW6v8ly60nuh_L7vpspPwvN9Fy8uCyrFofpacRtbAj0RsywwZi8jBL9h8CdGz3WWE3bUxawLaIC0V_UCb0EYd1GkhAmb6Wry1JNpO-Tubvu3ui9byt5fjEsAVk4zB_xaS1tI0_ttKTAMb9Q5dv_p2qlysVal9PHHp287Y7MEdb0gqeP3kS2CCpsmOUf8-gPrrF3SVnISZIAH6gGdRtlnoHcakCo0wUzmxCe_jutA70PW5rqNduw8SLYjby_lid-4hKxBTIaR07D9FJv0WAaPjwMpygUfm_mwf0wHwCDNJA_uCteR2SmkoRE118StoQ=w2858-h1778-no)
 
-### Step 7. Add Non-functioning Buttons and Styling
+#### B. Add a new TextView to prompt the user to enter their name.
+
+This should be very straightforward -- duplicate the existing TextView and figure out what changes need to be made.
+
+#### C. Add an EditText component to accept user input for the email.
+
+ An [EditText](https://developer.android.com/reference/android/widget/EditText) is a user interface element for entering and modifying text.
+
+The android:hint attribute is the greyed-out text displayed by default to the user that prompts them to input in the requested information. Here, we set it to "Enter your name."
+
+ ![](https://lh3.googleusercontent.com/lMusjxionF7V_Jowpdozd0l0cOjo9z_jZUQ8eGMQdcS-AFSjxBlQlUnEHpBs-2ZRvx3vtmdJ0tGl2g7kPH7BVHksAWPNM8EWtWOOkSaMAZCq2LyOUGvGW1RpJ1KdPFc2WTiZ7i_Es2qFzGAKIyiYMectl824XIkzi8CijH4l1_0ee684dS0dqUuH5iyYmEcVZULmdxDIERBZXnUst1s5ZLJaBnCfONl1diT2dK0IX0OPBgmnnhD_fV75Yqqq2tMvdEQ04r5bWa1mZejvaprEaf2CAdhsoYAL0Ty97sN-247LcQsWQ1S7YesqZb33DqNxED1K3yqOUeQ--aXX6hcklGsejiuTXu_TzPakH09E5jkHlbwZVuoVe6Du2kcFhSlTzyDgYvDT9U7-dWoCY0PNiztiUjen6VaKXyjhqp-v0DkA1XLDlOQmOLelCJO3gTcWwAbDAq2DM6yEbK7REzw1SSsZOR4jpNLkDJXf0nFVfyvEIWmrAQWEqK29LXfZASkBVxXCapQQh2_Pp3Rb3oA4r-WS6UW8sBMRgLdRwx7UqXo0X3bLHlTnTL7Sk5yBii-piB1FzwmaA24sYTYRvAUHGYAkt14NTKvfw487sQELNs3v5epLETnFONR76LwqNWl5nRhF1BAw1LAgLG-GumDObbXAF25cDyDNXy6iqEakocojcqczx3iswWpgIOGDVAd-Kqmfe8jUK16JqPTowj4APIRntZwBHdER_iJNuZQd6cJzmZvteA=w2813-h1778-no)
+
+Now the app should look like this:
+![](https://lh3.googleusercontent.com/Kw5BEZTt6PAW0VB_pVOJ51mmTODBmD3Iorl86unDBg2y95jIfEGpMCac7WwNhOQUZg_aZB8WpMNI4BPJcozmlFzehThg2H9qnq7fCrUzvRlAo8C4-48pPUOwH-NVxEP0zGDunqLqMrfYzQ0sjXmCzM9dsucNtcgu7JOydxLvDIsj-0vzGSD0pWwtogxGGQmDgB8PTvyZeEPbLzbhkTVLmfnxb8576cSocnkMy25m9H-FFbjP_5Xnqb8SbAI8fTx6TIjSufFH1pqCEveKTwjZqPJncZWRPaHerCIZ1bHbav5XOv5H23FHKM6rPkAW3IH4uwZhWFNJM8QJy6PKlOrGVuKHMUOCwMglV19In4XeCPWwFcNlA9oQrjag0id7KUf7sUqRYv6ZtgN7FTFmk9F5BKZmTwGLFods3YkkUdiU3km1MqJT2iOW1OELZFOTiS8CqDLMc41skZtH2xEheKFAgTkIYh3hazMIdJYeO189PvKRTFywx45e9n85OC7--pSSnH_Rx8x056hO5_fXSq_HQQAtaRVFCguxNz17EP8p3G5tKeIWsoTI-TLFayRqQ4sVlvDOKgAeY43cJrUwsP89OyhcwWlYdzW-Pq1Lf6Iwjz8083NsYqW4ewJt912rMdDvJEPBr8tUyJ8O5Cr76jypXx7hnWvChIYzaRH1MC3Zw5vgFsWQ7MYUN6Y6sOTGAKpd0JhzENE66Ek-is5yKNkkPjyit8C8q0qRMG8lb_RjJCda8IPQuw=w558-h311-no)
+
+### Step 5. Introduce ScrollView and Minor Changes [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/15888b974970aa742af50563165f354e9f3a1db1)
+
+### Step 6. Introduce Email Intent [link](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+
+### Step 7. Add Non-functioning Buttons and Styling [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/f4bac671e3dba8f20152fa2890bafc3a3d851df1)
 
 ### Step 8. Add Non-functioning Buttons and Style
-
-
 
 ### Step 9. Add Write to Firebase
 
