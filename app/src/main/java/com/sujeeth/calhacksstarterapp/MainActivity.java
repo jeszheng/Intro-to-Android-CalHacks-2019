@@ -19,20 +19,20 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText nameEditText;
-    EditText emailEditText;
+    private EditText nameEditText;
+    private EditText emailEditText;
 
-    Button emailButton;
+    private Button emailButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nameEditText = findViewById(R.id.name_edit_text);
-        emailEditText = findViewById(R.id.email_edit_text);
+        this.nameEditText = findViewById(R.id.name_edit_text);
+        this.emailEditText = findViewById(R.id.email_edit_text);
 
-        emailButton = findViewById(R.id.email_button);
+        this.emailButton = findViewById(R.id.email_button);
 
         emailButton.setOnClickListener(new View.OnClickListener() {
             @Override
