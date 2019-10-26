@@ -126,11 +126,18 @@ The [AndroidManifest.xml](https://developer.android.com/guide/topics/manifest/ma
 
 #### B. Add another EditText with the hint message "Enter your email to me here!"
 
-This should be relatively straightforward -- you can figure it out ;) 
+![](https://lh3.googleusercontent.com/eQVKrvlW8W4ZvUvgII0gfuDZVFYL-HgVjzd9lo5QTYIyOJyjhSENz3DvUsy1ItIT_Mx4032dyWsPX32g7z_t1cIMj-mrrzQMkNsS6n1z3mpxp1x64RqMgPjmwPOmF13-Oq92Xcj645W_XjFrewfkjWBIZJVYbBAaDx3K7v7lMB8QU97aCpzhb7YzE1Uq1PaC7_3yAaM5QNG0cPe5JsIIbd9W_HB_AOHZO_0pGFWpChRbD87is2tSqJeIPGqH-pK6hm8Iww63D-Y5-YqqNytY_2VW1wTkIXoFSactEImev7B1Fbvnmk3kMltgjRbmHYeKdohZvQidD52tiSGKqoFMNIQJce1G5QHnsVZ0A6Y7z53QifWA9lK1kWtIqJUYyWCUyaRxo5hPHsWF5_rceBs1TRNsTC1hZeFZwm7Ec1THFuFia8KAwQ0E79XXizDhflwZpkrDiZeJqUaUF-SBBnS9wtS8j3llKCCEaOqmUoBL97MWIjwyB1xAwIqfX8lQrDNHvsqx9g0a4y0JgkEY47d0v90l8n-3OeVdBiNW6Xogq4BaAwJKbP02KjOTI5EXBV9xjV49RXRILDVztR8t0f6xlLJPkyuGJwTEx_eW-HU6aV2wa4s5C18xvbIOeu60F1S-Pw6vv5-xSf47kJSbf81Cx3cP3Cmk2i4Xock6iOrUVCmh8QtP4brML1qN9Y6UwxQBuS1JWqNwhXlfF4RY2CzpDcIfwBFjB4LTnpMcPX-XCyb13gX-cg=w2871-h1296-no)
+
 
 #### C. Surround the LinearLayout with a ScrollView.
 
-An Android ScrollView 
+An Android [ScrollView](https://developer.android.com/reference/android/widget/ScrollView)  is a [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup.html) that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it.
+
+However, we want multiple views within the [ScrollView](https://developer.android.com/reference/android/widget/ScrollView), so we can solve this issue by making the single child a [LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout). 
+![](https://screenshot.googleplex.com/ZLtJF8nj0W4.png)
+
+Now your application should look like this:
+![](https://lh3.googleusercontent.com/8BoCH0lTXvM7yKCXcd9hjIb5ZItuAsj3vCE7BChtD2gLGmn9ARJBvCy81GtYbFaZY1h5772NsN_zLEn1rFReTFH2H_qZK9xIUitFPW0_SQOMR9qMdWuOmPbc0-H9V1diYK63ENTFMSrRWjirl7JkNWFtVhsvL9kfZT407DIe3VfJp4QMGSQgb9ppnmUoEBm-oOcC5yRqXU4D49IfVHnuB6xfatnFheVsyUJUWvtuhdC2IM_IslXT7y5vC04VxXFtbS8xD6OXE9yy-2_qtzXRLyRAADRqPC5ZyD9aDQjICnEuW3xNiIdinqvzMy5rSfY4Oap9kDibsV9gruSX7T7asbfFSD8k1bYr9xDyY3F9ZK-rh7YavSSpVnKaJnP0i_cOrIkN6R7uB1lXon13q3JCOSU5q5T6ia_XwjzP04nG2BwnmGr9PgkmjcBqY6-bj__dZTmmfnSBG4qWSSV-rpaTwv3wyAjtfQDNRT_oWKLVS3WsTYm18h2kZ27oy3rb4PPnmOsq-BPu5YsfEP1Ae5dPStAR-JvdtNaPsEx-J0R9bJYBY8lW1qMkLv8ESpBhy0q6y1FdVv9sLZK5Zdb0D_kIAj6gxofb6vaFCf8xmVYHGDs3jBGYz-Dbg2iSXKGdL3wJkOtcWqBlzwnYlf_md_mmbaSvzbKqR3elHiqSZWMNkTZrOG4s_WIQLj3t9D8RLtsp6GH5PQjJC7ufmyasr94ojuQXP3iLJIGPqrBiZZfXSt1qR1Vw0Q=w512-h288-no)
 
 
 ### Step 6. Introduce Email Intent [link](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
