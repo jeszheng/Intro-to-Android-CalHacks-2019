@@ -283,8 +283,27 @@ Create an additional EditText that says "Open URL" that allows the user to manua
 
 ### Step 9. Add Write to Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31)
 
-### Step 10. Finishing Touches 
+### Step 10. Finishing Touches [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/1ec181e8b4e6c07fd8c0fd47b3fa8f11fb0d3bd4)
 
+Finally, we are going to do some cleanup of the app.
+
+#### A. Place all string resources in activity_main.xml into strings.xml
+
+In Android, it is convention to store all strings in the application as variables in a strings.xml file. This is good practice -- if you need to change a string, you can do so in this one place rather than everywhere that this string is used. Also, having the strings in strings.xml allows for additional features such as location translation and [Talkback screenreader for accessibility](https://support.google.com/accessibility/android/answer/6006564?hl=en) features.
+
+Here are the lines we added to strings.xml:
+![](https://lh3.googleusercontent.com/tV8FdDEjEEPCORrNnGh2mbLlMZDbpKkTIioAf2kmGUHU3DcGTovOIyO7uMZLHTg0gB0T51iOMFFbalaQt71Nl40MIkbCzNIjz7PknKAUGSurxVm8SGvffMWFhQGJDplq3fmaTSVozwNoEfqR_scrdwY9qYi4mv4678_wNBXB2OP0Oe9xMGoYsHnY-ZIklADDebXYfuCXmkfULQl9mH2WaDrg2uTyHnyWIeqxbqCgCPULHSGhKPWOqdIu1YA5ozOHvrZDajYU2VZJc4EJMosIMG7JXD82paDvbClQwihK7tzwWJXrIWt53t_GoMDRE7PLWPhKtMp1m68TFIX8at4ntBHTLaXhGMvUZ-nnwzR59hToImgnqNHPHGQO0CD-YcAua7Hk87Yh1OSoYGiqlHx9jLmbYoJ7JgB0cis2INhE0DXzPczN8jLdkIsTwGeeiUUqAfKCDaY3c3N9PYByOtjfdb2t3NNJTrXRtNW9jEfurlY2w8mNnWQRbhHr-rmpBq6HKX04mWu5xKYILoUYLCdcNb3wglXyYwIBEt8da3U8O83LSOK6qjWgQ6-AKRbD5ntKEMCjUcdcGzjVVwHZc1JfxQxzElLsUwVsVu-TAw446OzI5mUQausjC-Vi0B4t8xSP4CTqi-FBtlEPxy9B1TfalftRiBs6MCVxiAUMJjnUCu5Bj2L6Y4azJRcripJ5Liqng9XZrx6SynoLS-24R2jlI8SPhdU3HzBNNsPgXlw62gwVdxxskw=w2471-h876-no)
+
+And here are the lines modified in activity_main.xml:
+![](https://lh3.googleusercontent.com/3_dFh7dETCNLgcTNjh2kDnWRJ3HBTbN05UQ7Cez-QxmJSHn8_a4fcIQtRXXgndA6crw_SlZmAWYi3edmIZ6M_KVJOaLTX8E3-FGN0Wct3-b8eXpdTzg_vgpKzFqtHo_6to7LrES5T4eyvlLs_vaUV_zTmHkk44aRXDsetzMi0CRtZNRICvLffkRgq1_OpCkjWi-6qFAz3AQFr5LliKlngvUGia_IHQAgcHLM8Iw1yHKLjRzfwPa4M2vf7jfEDkZXmei8p0xk9bEKM-lSbBMCaytBuDbTJbQ1yx_KJ5Kcoqq2wO0Y8N3kNncLMolRYNfEAULYeDWnRC2nUY8M2qDcuCbTC3CTYsG2nlRPkcIJoVlAzP9YSsymro1VbAKnqeCB_haggIs1GSFd9q2HbH4m4lBPiD3hkDZfqLrFSdPBgTnyKFlvR2Q_KSvHPPtAmHSASSGCBUeq_P8xGyCBvRj_9MB9lP4YkfP0rEDaV7jk7liGWhB2AIw6lrYNtKztROVdBZkx7PMa_67p4dpRBZ9E9tqzpou9vOsskhtVAKMiOgvYYcsyvQhAphLwx9QZaRiPWuJInVFWPpXaNE9pSaHjZ0Z054kLavB0D4F9YbwaWMSCCidtRXCvQKnnIF7qN2869f8ticLPzv6EBPjO4ArmD4cVpFXBicwqv6oQ9xyAhvRmcXiW2KSCR20QePNELBebhBEztwH67iP6eaA7-fb3gG6zK4Ki6EP8jRwVd2LvQzOybavdJA=w2761-h1771-no)
+
+While this doesn't result in visible changed to the end product, it helps to foster good Android programming habits :)
+
+And that's it! Enjoy your bright and shiny new Android App :) 
+
+![](https://i.giphy.com/media/l4q7TIW8nEZYOJUf6/giphy.webp)
+
+Thanks for coming to our TED talk.
 
 ## Additional Resources
 
