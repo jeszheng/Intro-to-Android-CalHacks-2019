@@ -21,7 +21,7 @@ The application we will build today is a simple app that shows a user profile an
 ### Step 0. Download and install Android Studio.
 [https://developer.android.com/studio](https://developer.android.com/studio)
 
-If you have a physical Android phone to test with, follow the setup instructions [here]. (https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5). Otherwise, briefly read on how to use a Android Virtual Device (AVD) [here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4).
+If you have a physical Android phone to test with, follow the setup instructions [here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5). Otherwise, briefly read on how to use a Android Virtual Device (AVD) [here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4).
 
 ### Step 1. Get Hello World Set Up and Background on Android [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/dd2e1fbcb38c334a330edc21e16572dbf7e1bb77)
 
@@ -140,11 +140,35 @@ Now your application should look like this:
 ![](https://lh3.googleusercontent.com/8BoCH0lTXvM7yKCXcd9hjIb5ZItuAsj3vCE7BChtD2gLGmn9ARJBvCy81GtYbFaZY1h5772NsN_zLEn1rFReTFH2H_qZK9xIUitFPW0_SQOMR9qMdWuOmPbc0-H9V1diYK63ENTFMSrRWjirl7JkNWFtVhsvL9kfZT407DIe3VfJp4QMGSQgb9ppnmUoEBm-oOcC5yRqXU4D49IfVHnuB6xfatnFheVsyUJUWvtuhdC2IM_IslXT7y5vC04VxXFtbS8xD6OXE9yy-2_qtzXRLyRAADRqPC5ZyD9aDQjICnEuW3xNiIdinqvzMy5rSfY4Oap9kDibsV9gruSX7T7asbfFSD8k1bYr9xDyY3F9ZK-rh7YavSSpVnKaJnP0i_cOrIkN6R7uB1lXon13q3JCOSU5q5T6ia_XwjzP04nG2BwnmGr9PgkmjcBqY6-bj__dZTmmfnSBG4qWSSV-rpaTwv3wyAjtfQDNRT_oWKLVS3WsTYm18h2kZ27oy3rb4PPnmOsq-BPu5YsfEP1Ae5dPStAR-JvdtNaPsEx-J0R9bJYBY8lW1qMkLv8ESpBhy0q6y1FdVv9sLZK5Zdb0D_kIAj6gxofb6vaFCf8xmVYHGDs3jBGYz-Dbg2iSXKGdL3wJkOtcWqBlzwnYlf_md_mmbaSvzbKqR3elHiqSZWMNkTZrOG4s_WIQLj3t9D8RLtsp6GH5PQjJC7ufmyasr94ojuQXP3iLJIGPqrBiZZfXSt1qR1Vw0Q=w512-h288-no)
 
 
-### Step 6. Introduce Email Intent [link](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+### Step 6. Add Non-functioning Buttons and Styling [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
 
-### Step 7. Add Non-functioning Buttons and Styling [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/f4bac671e3dba8f20152fa2890bafc3a3d851df1)
+#### A. Add two (currently non-functional) buttons.
 
-### Step 8. Add Non-functioning Buttons and Style
+A [Button](https://developer.android.com/reference/android/widget/Button) is a user interface element the user can tap or click to perform an action. 
+
+We add two buttons -- one for sending an email and one for accessing someone's facebook profile.
+
+![](https://lh3.googleusercontent.com/RKsFwIIRByi6eDNfeOQPepHicCocrVN8jfudaU0Eio9T3go2d6j0MS9h_GWJdcjJztx2DHDi76A8jtAESz39P7RtdtvcUZkrLsJwZF3eJwT_4RCcghTJNvcjDKu6h4Db5T6jTuNbK_9xriLOquyxETNuDpKtbwVyu_cE7p9YO5AFboLPQivHmDT92c7Xa6hMS3vfUpYqgyU6QQOO424mGr7pctwN2Vksd6y6SmH_UQjhIcbMX8O1uZaFYvu8GpmaBZdLfPPw87atdnC7EzWclzjT-wuGQCRDAvKxD6nd9vhkEPZcQjE1BMO-89n3O_pvSddEbxhHyJfGZnpn9NzAqI-RSHc8sk7JG-c69y_x71uoyhASDGDloVbzk5EJVhdRJvzJ8ha_xdtYw_3iwv4o2VqmGmhgK5XOAhuQ4D0tKTt-UB2Sgc1757xjMz0lNp7nwlWcHrVxTdsfX25z4giiFZI_lUWZVfUHBNdptLkTDa0Vx_NvMsyb1OytKCEDTWVXiDLEIJdu2fNEhyDMzhfmtZHyNwlsGA2hysotsnQYOuOC-HsOQsG01-PN61gPIenTL-FXrJfkBGrnlXsFwymUHJU0sYP1uAzT5_5vQ9Y9m1mDyU2EYSkxvF-65LWxpYtCuFwS3dSNGD7fvDsfiQjQQJ3h4mbWWHDy5yQkE9ugkk-LI8tYRtejkRzdvNp_uPOiUt-9ElR4KlY3KVj97FB6lQM8DwSc21gFLgb9XzKeldQRLJyQ5w=w2823-h1778-no)
+
+The app should now look like this:
+![](https://lh3.googleusercontent.com/lD9u9ISxZOJvyvSXHe7QpruMe78fy0uK6zMv9IaqVq3KczJTR7T9ceJRWYWhFkLs90PnatsEwtHwUMunQJnD5tnYoX26o6sMrCXFSJ4r94uHX9X9E2ZCFR24G6mxsmqWvouN3ZGIQfkfUUV-YV-juEYKd8HxdKmglFXp0hww5BkBadxbGCMJ0Eqt7P6w_DwL_sSOOzwhm_8uNPVfohcyjECAsIaA1jbALCRFQ_ndnSBDklivuNGLommhOBAPoCLqFHJyaO_AO5TIaedpqMq7TJdWXHumKmXgSxeUa-U_SiCH4QEocmJOmtDtVzwnMgMkT6mnmDz5NJgQ-mNK6cT-feNcGrUXnwpO21xcO63ZnrNmQoIhGngvbHUJhov1lXiaaICMp9EgrUmjrUzZ0Pk78YKe1j1hjrLnCLlQFE1QCYeQ-mb6Sld0DeBPFWOsbFtK06nVd8bkIFxmeVh4Uum67-QBEUCkdAKsXdW-sFr5AliE7DIbQa2OPMAKpo9Yf5gF2wr_nYffe_NRFZKJMc1RESH9CQVAY0EP1o0x0y0Ig-SSWPTUeX4BIXO2wUyVjuDj3l3hOUK_anMjXtqGaJq0lXstO2axQmTn-zBT5_7mnMMBb2pFJmyFr2uIIbGmTm1Fr-uwRGjDrZ2lSuvqbGBQ0WCmaJiQj5r5R8w-SGDpPb4OWTns3nNgBxTKqciigmb3I4vxmY6IvJA0R-_IklLuZaA205FfLwnJySiDAf2os-rRZxhHDw=w528-h311-no)
+
+#### B. (Optional) Add styling to the "Enter your email to me here" text field.
+
+Create a new resource file in the res/drawable folder called "edit_text_background.xml". In it, we set a stroke of width 1dp as a border. Here it is set to a pre-defined color called colorPrimaryDark (what I have differs from Sujeeth's commit here slightly, as it appears borderColor hadn't been defined at the time of this commit, causing a build error. You are free to define your own custom colors in res/values/colors.xml if you would rather not use colorPrimaryDark.
+![](https://lh3.googleusercontent.com/rzcEb9KGu_HE1_Cv8iNpCn8mBJeY3Z7265NgPrIz7I4rulNFcYvxAaVy5I7_S8C05_Lx6-RvmvM3gJkVUG81G4jlKF8YSme69ugtV3TRdgWvbZS4aibF4yI1bfB7DGxPlzjmiu5gPZ8M-rD4mBcAXOSkRF8Qu9vxqLV7aOA8-8mVH-9BmfC10EcsnMiL6RsK0398qYeSM8VGnqJng975qwrMAf1nnmF4VXMsIH9mY2ufFOMXa2-ScnYVtzKO8j_mlUNQbqWV-qKr10Syf0Nay1u-_MpgRaJf349kMQfg_vLQThvBtE1RZK1Ud6Tu8mJE87PLiGvk9YN-Ogsm571Vdca1KT319r7JehzFYjrTYZs5-S3Q0XvplXaHr5ih38gO5GSEPBZ9MeAmn8QkQW9JJrwSjXG_GnHXVzYTXV3wPQ4iQfBOvAYBPm6sVcAgz9IesyVM9zq5CllDhXbefqeQQ9-CM-bsZ5DwSAgz9IrkrXnrm7Njlmh3yEpPqM5CS4ePMVQHaO4E0EAbL6cy6_FS6AELQtZyVB8xn6tlX63r8w5ic_4AYK7hMa3e-7hscwMNpQAot2l4S52dWhdoJ2roo8_oGYbiUkdoIn2hjeA4eBqGlJ9S2cO3K1BRfqh_hVGJdGtsNgCXx2BJaILPOE_26gCr0qe2F0tprDI6I7dmM3fQ3TmB5DUoFrcsLZhyCyU9CvHfQ9RTWBrSfMKYzTem33mRY9fD6EXOfzvnBPWPvQ6u3wWGSQ=w2826-h1124-no)
+
+Finally, we change the background of the EditText to our new background resource.
+
+![](https://lh3.googleusercontent.com/KPp5lOyj0cbt2zl7w7amtJc3y2nURSM4HgfSPpMIxAJzY0OOIOKPSbdc78B88V8RTn_1XxrzLXO5zckjEdfVlmmkREVFZJfvdr2WfBOT__wmLbp4d7nZTjvsucICrpVJW2y_Jic3kyQLUsWEZ7l46I_b0ijFpQxpoIq96G9SQRJZnmpkgkC7h3vnmNPjiW5ucGzfdEEeu4aTsFHp0DTgv_sDUBSL7G9CeFTUtdJDo3kwhMOWX7-xjOB3Nwh_IIOdsG97XDlxdSah8cwOpqoTmNstlc4-8dwM9EYhQ3IF7NVCfn5Sx8fYsN0so23aQKaNsj54eNxKHM4fB-HBOPvRIFD0UzBm9TkmC1r7q0Gqrh_TPbNzn9xEqpq_lfa4B_6wmrMS6ph1dIdaA-ct2CWyAHB9JmaveIxaWI1_lAy_EV3mOLNrd8Zjn_SgL_HTRx0yZf18MOc_mWlVXNsav-Yuk6sg6TQIpJnzy-mkMnPW4MywqffLIUqw82e1L_VpghNMhLipM7pvkv_xIy7xwAP3t4zUcRWSqYsU5pfezbxz2KfZ5yZ6V9CXDt_MP-n9cabpV0qMBLIOlnopovhBJxdEHDUV87md_nU4-Gk2cCvzF22yrdYkdt1br-sE3Gmbseeg9rzLA_-y8lj4aq5eQ7yCSqOfAz-h4dmdrMKW51IMW9r59R4DcXxqFVHyCTfInb836B32JRLadpvmQnTEww-7E-8dozOjS-4ndHSgtKr2cL3aPooO-Q=w2786-h1521-no)
+
+Now, the app should be at this state:
+
+TODO jessica: left off here.
+
+### Step 7. Introduce Email Intent [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+
+### Step 8. Add Firebase
 
 ### Step 9. Add Write to Firebase
 
