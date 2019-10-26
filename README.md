@@ -57,7 +57,8 @@ A [`ConstraintLayout`](https://developer.android.com/reference/androidx/constrai
 ![](https://lh3.googleusercontent.com/yh7E-M4HqMBdH_m2umf9tp6Bl5wCkhFooRVLbdZspFfHVaRcrmwGlLHG-yXW22ow2GvyXOlvVOGBLuk1fnrJilDu4WSSph_f42wo4yqtffBdIdQVY7GjO3YwYICuFMIocE2Oh-38vIql0x0fqKPEXz-I6Dosh1LEymw2OwwY7T03ftQJPrVZoamrmnE7snS106kyvpcuxd90IFDb_hjWRIRbCypSqkGxbC5roQPWjF9OAFUM1R-uNGf4DhNOFiRGjrvOS3wlk7HB4jzRj3i277tdhtiPp7hFWptJO2JdrmIQw2rPyWZ9HcZ4SjeMoDYt4ztb8oUPCtnRpxm_R4SKuFLfS57XIOE-vmnFX81aeQxA-SJWEE01ezrz_Yj4pzQr5fhZuD0CEjVFw21BgRmggdwo4Qui6K6xZN96i3rR0w9Re3NP15NiCZGkPy8Xsus1rrDlppxgd4KqsbX0WLlUut8yNCYyksRLlvm-AYYWlcnAFJNHt5GcmNh-yUKvdYDnA5clWUcnppokSvXjeh943myjAOA5xOnM_jDJcq6LF3h7E2ffgcv5FcXAhnriEYGyueU0P9pWvLEPrKtv87LCgs8q9On7LpzgqPBa9u-_O4d3CgFUP3hLn-Ntz_kg-h9ukh_HcHFj7LEivlYwjJZRFYR07o1Rrm9VtGFUHj4UdCn23J0ZN2Fw0ed752i1-OczWzr9_lLnBYdTiuikXLWecycUUjbi-iMNbAhqkU6fW6peFqRVmA=w2936-h1276-no)
 
 Rebuild and re-run, the app should look like this:
-![](https://lh3.googleusercontent.com/7DfmgGg3Xhz6GKjSvw46w86zve4tPCtz7N1C5q6rh-gfhc7hwjVkj6FQ6DewQuvIyqCthlQJYDqMKNstcPDLg9N5edIQLpPAJ2lc7xw7YOhX3aIvcD23W0gnL7nZuvTuox1LFd5Z5bRG8_z2yDPB7gpNxNyYDCpThn4kWAycKq47etnoj9gHodICMN4_6N74l0mpWgb9uGhTEiGlpLCmssPArMUoEkVlckQ2dEP71ZtsnLubqXhIy1JzhjcbUdHt4F267jH2wuBaOJfNSvXiZD2SWDRgHtWc6Fzrdqi94Vuz1yFwZmRlfs9WfQ9xKLtQvpHKHReykbnvH-7B0CmvgIVyx1Br-cMepKq1TwPzapN3SPPqDmulJCIbNrUGFFQTXgWdF_tmX9vrk-JGOYBWWqcz_p2gDYll8eAG76WYsRaJoF1zqgwqsfwKUe-c2c8EDs7YvtAlo1IY16BC6DU2HlIijUNTrEHeoQeucePAPXBqmatD_iFC-xEXeLqY1aMjjV2AP1OxESkH7AABy3WiEGAHW6S1MOvJGZwdlWktIKLCGkX8wbzczN_O1Ski_xbEZ9vCRcZTcrxV903ah0bdQQP2kd6vWxTMVDzZTdZDS4NT93YbLPwx43pcgkuVB9mf7IVVf13YYs8hdTWKG861WCH883ERQiT8ZzEVMygelQDHC9JWCyWx_VG0eSYgpTR-QsnEq6X0DPg-MmmslQEIDGJti4ct-Vuaa-VDHMknWniEvVZk1g=w527-h311-no)
+
+![](https://lh3.googleusercontent.com/UaUXQVfJoIfCLGoAIplt_Op0_Qisqh18Ac8HC1IQ5SjKgJsaETtP4R96M6t62ATNdzoLyutA2PCIgJerRBonzrJn2Al4juFAhXC_yFhiJe5tYZGnBdD9h1kd0fEjZgAoOwngFN-6VdDjaKaJk1eFEopabToo2Wy3_q92JYVb1e9QEemCY_cZo2_nryvs9jy2R-xgWXycMqyx0kyPYPos74VufCWD_GuMZSFdjVSBoCv2ZxPYLHCp_59XiFSX0bZRM5FbhODw_lMhc_1Z996zbaPNDEJiOZzRAqkYLfVC9XzKX3QFn65-M38HJtZbSW78-bdmzLo3mErEPtSIVgWxMdR74aFlUtLm-KYZP7_QDR49x1H6yleYBfSTLhWN4hAToOPbCwqTuf55f1vhr4CflLp0uF0ocxvhNwECzyqiKjC7d5BeOUXi6Bm-vcUijbfXuJmTNPKQ_3kC_jecafGpLYnkmiZb5cv6MzKmPZbWiRbZAAww5BqjNtGR1fKFOdb6hALGOwSb9Rh13x4YjdeYE7rof-iC1J-nLThIYkhzAOaHjDWk7SsauLZJojkTfh_bN2Dthv1zcM2WRqMPhxjvjFemydALtmBWJNASo_lVWXD1Pet3VTdnwJuoZ3vvnlL4qF4IYSmaR28HezxxpPl85MvIAxM8akNlI8muN-ZYpAo0WiHnxJUghqkPikofdh7fYrFy92rSFynPurbQZKJr3u_Xps3zYn08E8KLi5Mn0I3jFKVMyQ=w3017-h1778-no)
 
 #### B. Change the width of the TextView from "wrap_content" to "match_parent".
 
@@ -108,11 +109,12 @@ This should be very straightforward -- duplicate the existing TextView and figur
  An [EditText](https://developer.android.com/reference/android/widget/EditText) is a user interface element for entering and modifying text.
 
 The android:hint attribute is the greyed-out text displayed by default to the user that prompts them to input in the requested information. Here, we set it to "Enter your name."
-
  ![](https://lh3.googleusercontent.com/lMusjxionF7V_Jowpdozd0l0cOjo9z_jZUQ8eGMQdcS-AFSjxBlQlUnEHpBs-2ZRvx3vtmdJ0tGl2g7kPH7BVHksAWPNM8EWtWOOkSaMAZCq2LyOUGvGW1RpJ1KdPFc2WTiZ7i_Es2qFzGAKIyiYMectl824XIkzi8CijH4l1_0ee684dS0dqUuH5iyYmEcVZULmdxDIERBZXnUst1s5ZLJaBnCfONl1diT2dK0IX0OPBgmnnhD_fV75Yqqq2tMvdEQ04r5bWa1mZejvaprEaf2CAdhsoYAL0Ty97sN-247LcQsWQ1S7YesqZb33DqNxED1K3yqOUeQ--aXX6hcklGsejiuTXu_TzPakH09E5jkHlbwZVuoVe6Du2kcFhSlTzyDgYvDT9U7-dWoCY0PNiztiUjen6VaKXyjhqp-v0DkA1XLDlOQmOLelCJO3gTcWwAbDAq2DM6yEbK7REzw1SSsZOR4jpNLkDJXf0nFVfyvEIWmrAQWEqK29LXfZASkBVxXCapQQh2_Pp3Rb3oA4r-WS6UW8sBMRgLdRwx7UqXo0X3bLHlTnTL7Sk5yBii-piB1FzwmaA24sYTYRvAUHGYAkt14NTKvfw487sQELNs3v5epLETnFONR76LwqNWl5nRhF1BAw1LAgLG-GumDObbXAF25cDyDNXy6iqEakocojcqczx3iswWpgIOGDVAd-Kqmfe8jUK16JqPTowj4APIRntZwBHdER_iJNuZQd6cJzmZvteA=w2813-h1778-no)
 
 Now the app should look like this:
-![](https://lh3.googleusercontent.com/Kw5BEZTt6PAW0VB_pVOJ51mmTODBmD3Iorl86unDBg2y95jIfEGpMCac7WwNhOQUZg_aZB8WpMNI4BPJcozmlFzehThg2H9qnq7fCrUzvRlAo8C4-48pPUOwH-NVxEP0zGDunqLqMrfYzQ0sjXmCzM9dsucNtcgu7JOydxLvDIsj-0vzGSD0pWwtogxGGQmDgB8PTvyZeEPbLzbhkTVLmfnxb8576cSocnkMy25m9H-FFbjP_5Xnqb8SbAI8fTx6TIjSufFH1pqCEveKTwjZqPJncZWRPaHerCIZ1bHbav5XOv5H23FHKM6rPkAW3IH4uwZhWFNJM8QJy6PKlOrGVuKHMUOCwMglV19In4XeCPWwFcNlA9oQrjag0id7KUf7sUqRYv6ZtgN7FTFmk9F5BKZmTwGLFods3YkkUdiU3km1MqJT2iOW1OELZFOTiS8CqDLMc41skZtH2xEheKFAgTkIYh3hazMIdJYeO189PvKRTFywx45e9n85OC7--pSSnH_Rx8x056hO5_fXSq_HQQAtaRVFCguxNz17EP8p3G5tKeIWsoTI-TLFayRqQ4sVlvDOKgAeY43cJrUwsP89OyhcwWlYdzW-Pq1Lf6Iwjz8083NsYqW4ewJt912rMdDvJEPBr8tUyJ8O5Cr76jypXx7hnWvChIYzaRH1MC3Zw5vgFsWQ7MYUN6Y6sOTGAKpd0JhzENE66Ek-is5yKNkkPjyit8C8q0qRMG8lb_RjJCda8IPQuw=w558-h311-no)
+
+![](https://lh3.googleusercontent.com/TCWIH4cYQfNV_wn9ngQIMXgSmDwNebcHdq-mrfCydtF7CJb7Lt4cXZKPve3HeC9SpEIkCJUI5WkPksRKuFCbbijKBp45ed6cqww0y9QMWa9bZY858_Ektj3XLBYC-BTaUEx_3hYujlshLo6HuXPMFbHrMrE9D_Bj885_ul9Yrgls6jMxVjbpoCCLpml6ecQNNatBYfsV3bXKb5aLo4WLF_Pz9S19SkUn0-NL5c1nPyG350zHAPoQN1w4ScbSYf5Fa9TroTEGUEiZNeT55_Lpt6v0ZwpSD_z1IW1aZdV_1b-SsuEo1drxMMgkcg2RsThKXILkwKKWuSNI0ozIlh5w238jBbOAj7a3CS8Q_dk07KBx5t4-YEYWlqSn4eGsGq8JaIJ7BrG7e7Nu7ZfsgUTX-WI4MkikJDZoimKtLgmef5HWkIa1jMUTWq1KzTmiD8MwPmM2zXvZddTuoB2fgCJWCgBZ1g9bRznR2hIsN-JE4THguKh_HcznQP7yHM0x8ZDkEN0BLqKWxKamOD4SleTvcGWmkVQ_DR2HCcuJPoC6lKcTYFlWBziuASIO5dNZDW8QRcuXBNDrbIqqPJPkT-jxlXr5S3nx7uyjURHeyMpOQ1cl1_fuY94pwHuKfjB_yJoiOWACPNke1LO5Uzem4l_uV6IcucsGbPAnsaxoygAPo18jBqfk79h0CPDC8yCexmRugQVi4so29xkQ9V35M9tHomwji4mk8zVX5_wu8L2s3p51lzmrNA=w2940-h1640-no)
+
 
 ### Step 5. Introduce ScrollView and Minor Changes [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/15888b974970aa742af50563165f354e9f3a1db1)
 
@@ -137,10 +139,12 @@ However, we want multiple views within the [ScrollView](https://developer.androi
 ![](https://screenshot.googleplex.com/ZLtJF8nj0W4.png)
 
 Now your application should look like this:
-![](https://lh3.googleusercontent.com/8BoCH0lTXvM7yKCXcd9hjIb5ZItuAsj3vCE7BChtD2gLGmn9ARJBvCy81GtYbFaZY1h5772NsN_zLEn1rFReTFH2H_qZK9xIUitFPW0_SQOMR9qMdWuOmPbc0-H9V1diYK63ENTFMSrRWjirl7JkNWFtVhsvL9kfZT407DIe3VfJp4QMGSQgb9ppnmUoEBm-oOcC5yRqXU4D49IfVHnuB6xfatnFheVsyUJUWvtuhdC2IM_IslXT7y5vC04VxXFtbS8xD6OXE9yy-2_qtzXRLyRAADRqPC5ZyD9aDQjICnEuW3xNiIdinqvzMy5rSfY4Oap9kDibsV9gruSX7T7asbfFSD8k1bYr9xDyY3F9ZK-rh7YavSSpVnKaJnP0i_cOrIkN6R7uB1lXon13q3JCOSU5q5T6ia_XwjzP04nG2BwnmGr9PgkmjcBqY6-bj__dZTmmfnSBG4qWSSV-rpaTwv3wyAjtfQDNRT_oWKLVS3WsTYm18h2kZ27oy3rb4PPnmOsq-BPu5YsfEP1Ae5dPStAR-JvdtNaPsEx-J0R9bJYBY8lW1qMkLv8ESpBhy0q6y1FdVv9sLZK5Zdb0D_kIAj6gxofb6vaFCf8xmVYHGDs3jBGYz-Dbg2iSXKGdL3wJkOtcWqBlzwnYlf_md_mmbaSvzbKqR3elHiqSZWMNkTZrOG4s_WIQLj3t9D8RLtsp6GH5PQjJC7ufmyasr94ojuQXP3iLJIGPqrBiZZfXSt1qR1Vw0Q=w512-h288-no)
+
+![](https://lh3.googleusercontent.com/NpFOJZWHlahDh_-Ni4q9CP0DNQliVQR84kEyADlWsOHt0Q1zpnT0utCmb2JNpy9-tOhur4u9h3e1m418JYzeBAhSrF5KIuY9GwR1907-5TtJkMIRH4lim_PLnb-Xaz2arhxzcKHq7HYdJOkTNkwhqMV1YzqmgkMcHhx1jVyin1Hd_Tuoe1uvph6C7C6VHXY3_oF2bLONKy1ftsPci0TyAlH4Sjjeq6XTAVpLKNpyU6s30ejGW_EVRozl9B37Ljht2G8Nbj6CC4prhdR9xmAOwVODvHbKSdUYOdGhDkT296cMrQ1I_Z25ceNob1xzy7mYLCljd2tLMmdctVevCC4prjYSiWLsH8rXcjKFTTKN4uK8acZHK5a11nly_AyeAmTKFJTf5mrcZzGp5feNsfS2I0tzHCriDT8CL4Fu_9-_HyEnPtBM9Q6wHXdgezB_40qR9i5YIflHlaGyQMPGpwIsGEX1MTCBDIFWn02i5MUcldPnrlf6RY7HM67BTSMUWyJXAdxjD-3g8ETWDL2J99PgPLslQP7l4sQidj3W94MXz5ESW9Guz5g-NfWEiFMqFQ2nCMpulou4EO3j4G_i5FbmI84ASvY9OgOAx6zA-eLjU1KCFuHv8GnKqVysLVB36uhbKUCnGxtw7Qspkz6WVkdYqbSJo0uCZCQeewSEpj6IYDNpUhWV26qaIZgxDGzn92xURtR6_8dHMXNtGpzp03SNZvrV19IYgSpCqhlqZ0O9yudW80DfWA=w2956-h1664-no)
 
 
-### Step 6. Add Non-functioning Buttons and Styling [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+### Step 6. Add Non-functioning Buttons [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+Ignore the items in the commit link about edit_text_background.xml -- we are not doing that anymore.
 
 #### A. Add two (currently non-functional) buttons.
 
@@ -151,22 +155,100 @@ We add two buttons -- one for sending an email and one for accessing someone's f
 ![](https://lh3.googleusercontent.com/RKsFwIIRByi6eDNfeOQPepHicCocrVN8jfudaU0Eio9T3go2d6j0MS9h_GWJdcjJztx2DHDi76A8jtAESz39P7RtdtvcUZkrLsJwZF3eJwT_4RCcghTJNvcjDKu6h4Db5T6jTuNbK_9xriLOquyxETNuDpKtbwVyu_cE7p9YO5AFboLPQivHmDT92c7Xa6hMS3vfUpYqgyU6QQOO424mGr7pctwN2Vksd6y6SmH_UQjhIcbMX8O1uZaFYvu8GpmaBZdLfPPw87atdnC7EzWclzjT-wuGQCRDAvKxD6nd9vhkEPZcQjE1BMO-89n3O_pvSddEbxhHyJfGZnpn9NzAqI-RSHc8sk7JG-c69y_x71uoyhASDGDloVbzk5EJVhdRJvzJ8ha_xdtYw_3iwv4o2VqmGmhgK5XOAhuQ4D0tKTt-UB2Sgc1757xjMz0lNp7nwlWcHrVxTdsfX25z4giiFZI_lUWZVfUHBNdptLkTDa0Vx_NvMsyb1OytKCEDTWVXiDLEIJdu2fNEhyDMzhfmtZHyNwlsGA2hysotsnQYOuOC-HsOQsG01-PN61gPIenTL-FXrJfkBGrnlXsFwymUHJU0sYP1uAzT5_5vQ9Y9m1mDyU2EYSkxvF-65LWxpYtCuFwS3dSNGD7fvDsfiQjQQJ3h4mbWWHDy5yQkE9ugkk-LI8tYRtejkRzdvNp_uPOiUt-9ElR4KlY3KVj97FB6lQM8DwSc21gFLgb9XzKeldQRLJyQ5w=w2823-h1778-no)
 
 The app should now look like this:
-![](https://lh3.googleusercontent.com/lD9u9ISxZOJvyvSXHe7QpruMe78fy0uK6zMv9IaqVq3KczJTR7T9ceJRWYWhFkLs90PnatsEwtHwUMunQJnD5tnYoX26o6sMrCXFSJ4r94uHX9X9E2ZCFR24G6mxsmqWvouN3ZGIQfkfUUV-YV-juEYKd8HxdKmglFXp0hww5BkBadxbGCMJ0Eqt7P6w_DwL_sSOOzwhm_8uNPVfohcyjECAsIaA1jbALCRFQ_ndnSBDklivuNGLommhOBAPoCLqFHJyaO_AO5TIaedpqMq7TJdWXHumKmXgSxeUa-U_SiCH4QEocmJOmtDtVzwnMgMkT6mnmDz5NJgQ-mNK6cT-feNcGrUXnwpO21xcO63ZnrNmQoIhGngvbHUJhov1lXiaaICMp9EgrUmjrUzZ0Pk78YKe1j1hjrLnCLlQFE1QCYeQ-mb6Sld0DeBPFWOsbFtK06nVd8bkIFxmeVh4Uum67-QBEUCkdAKsXdW-sFr5AliE7DIbQa2OPMAKpo9Yf5gF2wr_nYffe_NRFZKJMc1RESH9CQVAY0EP1o0x0y0Ig-SSWPTUeX4BIXO2wUyVjuDj3l3hOUK_anMjXtqGaJq0lXstO2axQmTn-zBT5_7mnMMBb2pFJmyFr2uIIbGmTm1Fr-uwRGjDrZ2lSuvqbGBQ0WCmaJiQj5r5R8w-SGDpPb4OWTns3nNgBxTKqciigmb3I4vxmY6IvJA0R-_IklLuZaA205FfLwnJySiDAf2os-rRZxhHDw=w528-h311-no)
 
-#### B. (Optional) Add styling to the "Enter your email to me here" text field.
 
-Create a new resource file in the res/drawable folder called "edit_text_background.xml". In it, we set a stroke of width 1dp as a border. Here it is set to a pre-defined color called colorPrimaryDark (what I have differs from Sujeeth's commit here slightly, as it appears borderColor hadn't been defined at the time of this commit, causing a build error. You are free to define your own custom colors in res/values/colors.xml if you would rather not use colorPrimaryDark.
-![](https://lh3.googleusercontent.com/rzcEb9KGu_HE1_Cv8iNpCn8mBJeY3Z7265NgPrIz7I4rulNFcYvxAaVy5I7_S8C05_Lx6-RvmvM3gJkVUG81G4jlKF8YSme69ugtV3TRdgWvbZS4aibF4yI1bfB7DGxPlzjmiu5gPZ8M-rD4mBcAXOSkRF8Qu9vxqLV7aOA8-8mVH-9BmfC10EcsnMiL6RsK0398qYeSM8VGnqJng975qwrMAf1nnmF4VXMsIH9mY2ufFOMXa2-ScnYVtzKO8j_mlUNQbqWV-qKr10Syf0Nay1u-_MpgRaJf349kMQfg_vLQThvBtE1RZK1Ud6Tu8mJE87PLiGvk9YN-Ogsm571Vdca1KT319r7JehzFYjrTYZs5-S3Q0XvplXaHr5ih38gO5GSEPBZ9MeAmn8QkQW9JJrwSjXG_GnHXVzYTXV3wPQ4iQfBOvAYBPm6sVcAgz9IesyVM9zq5CllDhXbefqeQQ9-CM-bsZ5DwSAgz9IrkrXnrm7Njlmh3yEpPqM5CS4ePMVQHaO4E0EAbL6cy6_FS6AELQtZyVB8xn6tlX63r8w5ic_4AYK7hMa3e-7hscwMNpQAot2l4S52dWhdoJ2roo8_oGYbiUkdoIn2hjeA4eBqGlJ9S2cO3K1BRfqh_hVGJdGtsNgCXx2BJaILPOE_26gCr0qe2F0tprDI6I7dmM3fQ3TmB5DUoFrcsLZhyCyU9CvHfQ9RTWBrSfMKYzTem33mRY9fD6EXOfzvnBPWPvQ6u3wWGSQ=w2826-h1124-no)
+![](https://lh3.googleusercontent.com/vH2lNM-IerqGr3k21QWyZYM7-0KyxYFnaIVMuCXC1-mzxsQkjhIjKnoebGOAuHFjdyQf1PpyulsoW-ozat6jyMAT72AkFk2wJMWLiphMiWbJtjsnzzcZ0NTpxFFtbDhMWmkxfhGCeeurSnTjsSZUPd-w1JijASBDLFgt2I4rUTlP9TeWxRvg-41ypQpDkHMR9AYFXGCuNxjKtl7PMgCiB9cy_S8pCou441duxVTDAa_zwewMncK0m8CS953BKB8pCLwiXAJQDJpGNLqUzSZlBN1uUlV5PRLtCTM-cCqrhcHUGSyubkbacDJX3gJpZcvQ3d8l1tESSgUmTIGGsIcndUA9bNvBCJ-EGgZpwgFBBCW3mC8TXuoECAKvTXrlNKI-lqRtwhukj_5_9EhSAPg-KFOxFgtrISYAJbNbQI_jw6MGcctnkLlSOvUglRQbvZcib6jAifkJBmO2IhNdmrMaygyxp3agtA2GwZHqoxWxJrfwLGZYpzTwYUZVCCw-_ZtsEmSjPdPICUF_B1J0tx2clz8bJOe_C7RfZeOBfzyoKCJ2KR50cYJb52M-ryeVW_1dNpT5G2Rpz5uZ0o8O4ea_0ljzTtijglUIl3oPouXfvFRw9N5pbSrCCu5rO3N-BVrfSH1FRK1yuszEhU-YuUMWYGYK2irgfrA8OQS1tlOSKroVDRAMcS4oV2_09-P7KVqJlOmp7RzGg6nG9cFB_ZkrsPq62ZyKct0rkKQS58grtSE6GvCWIQ=w2898-h1706-no)
 
-Finally, we change the background of the EditText to our new background resource.
 
-![](https://lh3.googleusercontent.com/KPp5lOyj0cbt2zl7w7amtJc3y2nURSM4HgfSPpMIxAJzY0OOIOKPSbdc78B88V8RTn_1XxrzLXO5zckjEdfVlmmkREVFZJfvdr2WfBOT__wmLbp4d7nZTjvsucICrpVJW2y_Jic3kyQLUsWEZ7l46I_b0ijFpQxpoIq96G9SQRJZnmpkgkC7h3vnmNPjiW5ucGzfdEEeu4aTsFHp0DTgv_sDUBSL7G9CeFTUtdJDo3kwhMOWX7-xjOB3Nwh_IIOdsG97XDlxdSah8cwOpqoTmNstlc4-8dwM9EYhQ3IF7NVCfn5Sx8fYsN0so23aQKaNsj54eNxKHM4fB-HBOPvRIFD0UzBm9TkmC1r7q0Gqrh_TPbNzn9xEqpq_lfa4B_6wmrMS6ph1dIdaA-ct2CWyAHB9JmaveIxaWI1_lAy_EV3mOLNrd8Zjn_SgL_HTRx0yZf18MOc_mWlVXNsav-Yuk6sg6TQIpJnzy-mkMnPW4MywqffLIUqw82e1L_VpghNMhLipM7pvkv_xIy7xwAP3t4zUcRWSqYsU5pfezbxz2KfZ5yZ6V9CXDt_MP-n9cabpV0qMBLIOlnopovhBJxdEHDUV87md_nU4-Gk2cCvzF22yrdYkdt1br-sE3Gmbseeg9rzLA_-y8lj4aq5eQ7yCSqOfAz-h4dmdrMKW51IMW9r59R4DcXxqFVHyCTfInb836B32JRLadpvmQnTEww-7E-8dozOjS-4ndHSgtKr2cL3aPooO-Q=w2786-h1521-no)
+### Step 7A. Introduce Email Intent [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/f4bac671e3dba8f20152fa2890bafc3a3d851df1)
 
-Now, the app should be at this state:
+Now that we have most of our UI elements, we are going start the business logic and write some Java  ☕ (mmm I am sipping Java as I am writing up this tutorial for you guys at 6am).
 
-TODO jessica: left off here.
+#### A. Add Android Ids to Edit Text and Button in activity_main.xml
 
-### Step 7. Introduce Email Intent [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/5f1574d387237d6ea965d9dda47a7e6d042b9bf2)
+First, we assign an id to every UI element in activity_main.xml currently of interest using the android:id attribute. This creates an identifying tag that can be used to reference this particular UI element from the Java code.
+
+Assign an id to the 2 EditTexts and the 2 Buttons.
+
+![](https://lh3.googleusercontent.com/UM0FoTUO0UgbiU9lyo7W8cuWZazBelw-MybfQqvWlR9BVGclVZsZGLdNCInihJVgC3kcICNUkKbJEWOTj2HLCM_Wld97NTu11gbaEbY0F38vtaHFw_XotuFE1C1ivOQnILz-7ZsGHjtyfZBTcCfATiru_4HIKFyUu_xrwDDqJ2etHpwkHBDQzQy_Lkm5biiGe2hGxYUEoy8AayVXCMMf5hGcI5i9JeFeJs1C0Dc2pp1GUB-GRFL3NI1gcBqMjwU2ShFEw24s8keIhFi5zq--bpoqJgJ-IW-e2PPYy10ngyqzk5fSbvKTK0RTZJWdx2jzevhGzcshBG9dpLvo9iGldqS0VJH__j31WKHJFCZfbmBI499D2cnhc1AT8wpHx6GDVx_S93Hix_FORhuyAv_MhebwKogJuF83AXMgvcUs93sbarDjhQuH30zjIFdi683JtReEygL6_qhfgtStLk1OW6zMAykVmqLi1xYL4vOZEtsuJM-pWZ2F120EVRFDuunlLaXlgAqX0Y76VHyw8aMrNOjYzX4VuFuiVfdKgokwVrorSJq1Lf9tBtJNHKumxigoPmPy9Ic51N9IdVE6c5ehzzPU9R5eHpc6S_vbiODLFAUIypYFRwdzkx8BA_YMfZomGWSlbrpVny0AMhi4HGInOchW0o5z-D9yjj6SEqyNK6Vg25K6qZ8Jl0MDX1Ro2UhJnelCRQYQJmiJWzoH0TCCDLco40wyPMj-1Hfb_JNxpMolkMNm1A=w2856-h1561-no)
+
+#### B. Reference and link these UI elements to the Java Code in MainActivity.java
+
+We need to import some classes at the header of MainActivity:
+~~~
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+~~~
+
+And create some instance variables for the 4 UI elements you linked above:
+
+~~~
+private EditText nameEditText;
+private EditText emailEditText;
+private Button emailButton;
+~~~
+
+In **onCreate()** within MainActivity -- this is called at the beginning when the Activity is initialized (read more about the Android Lifecycle here) -- initialize these variables:
+
+~~~
+this.nameEditText = findViewById(R.id.name_edit_text);
+this.emailEditText = findViewById(R.id.email_edit_text);
+this.emailButton = findViewById(R.id.email_button);
+~~~
+
+#### C. Create an onClickListener for the emailButton
+
+When we click on the emailButton, our desired behavior is for (1) CalHacksStarterApp to redirect us to an email application such as GMail (2) The body of the email is pre-populated with "Hi I'm {content of this.nameEditText}" along with our message which is the content of this.emailEditText.
+
+Let's enable our button to do something by creating an onClickListener for emailButton.
+
+![](https://lh3.googleusercontent.com/gGiVy-b8bCcK6GhSWsHxpgYlD69ZW--UEPDX7v6xFVtQt-s8izWg7_VK3Sz7EWoWbZAVogPNS34b0IlIoiYhlBuwj3ZKV-4B9YqKeJD3twmuvuR8HNGDpriAc5Tx6GccZrZekFwZzV8nIsXPlhNItMkhjtKJbgM1QEt6lNaJhBsmy7BKdUYjvJQWJexrgMdYrxWzbY2hP-O1BVRnn2wIj4JxmLu2kfmzZJpFW6xUtZ_lxn7Zgyck528cH9eVZ5I6dXAWx8C0AJ9iV7K1ixc3wHWORiUkAHrQ0pN1Y32GHE6iB61jSWkZddiPfmB-yrPatg_od4jvWndRoHdVUeEU3sNYPJU0-mlxhaldbSeayr5Ef9E2bXej8fZa5N-r4pggiVv8vh7FZ6ZOJ7-xInShoGT7PW00V4md-ny8cRjfEhunOH22awACfyGdKck_A-4-Co2RCu-0igpK-T3h9FP_gx3W_m17HX5NZ0cpKAzf9jYcRpHTn03LKwerQL5PoB-_MOWxhComcgye64qDqZkicNzFb9t5nH4UEuylUVw1Hj5rxGt06jegmvsFOV1aL_2dtTWJO2nUzsDwAxIUZGVjEsMAuEgxquCq72EAHk6YP4Qql9FEu7EYAVZfv2Dz4BfOCH29EU9f1h5_MW9l25ZoFv8B9OQwk0ufuRem4cfcCm6wbPB7kfm_eUosQ6goLRdNE8mxahR-IvsbWYdUe-41hcJed7ROGT_66SSOnK5aTiB99eo4KA=w2926-h1336-no)
+
+#### D. Create an Intent for the emailButton
+
+To perform the emailing operation we will need to use an Intent.
+
+An [Intent](https://developer.android.com/reference/android/content/Intent) is an abstract description of an operation to be performed. An Intent provides a facility for performing late runtime binding between the code in different applications. Its most significant use is in the launching of activities, where it can be thought of as the glue between activities. It is basically a passive data structure holding an abstract description of an action to be performed.
+
+We want to import Intent and URI:
+~~~
+import android.net.Uri;  
+import android.content.Intent;
+~~~
+
+In the emailButton.setOnClickListener() method, we build a new Intent that will allow us to carry out the business logic. 
+
+We indicate that this is an email intent by 
+~~~
+intent.setData(Uri.parse("mailto:"));
+~~~
+
+We include additional information by using intent.putExtra(...). [Intent.EXTRA_EMAIL](https://developer.android.com/reference/android/content/Intent#EXTRA_EMAIL) and [Intent.EXTRA_TEXT](https://developer.android.com/reference/android/content/Intent.html#EXTRA_TEXT) are standard constants that have specialized functions within Intents. Here, they let us specify the email recipient and message content, respectively.
+
+You can read more about what kinds of data are supported in Intents [here](https://developer.android.com/reference/android/content/Intent.html).
+
+![](https://lh3.googleusercontent.com/6YhZwaxRwF1uhA5HsB6lFInRZ1gHsSA7x1L-5cV6l_ihhChjyTSCS6MRTVZXrobGG0bQq6kEnWVGCDDmSzcqW8_NFfUh_PleYL8bjKCnUmYJOfwXGIPvhf6VKmJjRXyRO8z_kSWmDNj-fO5YIvwJUjeW8ZmeNV52aq6BbFip-Xl_wE0jIPkbWIJNAR0ZPOdZOQK3J-I3Olk1xeXyKhNsGK-zOw_-CXy_vOllVc0I7om2kPgCIAbrpUVuPX9ZIdu75EdbMjN6pZRbRXL2KJZAdFHt_HYsmARPe0KcoUGyr0frpd4TlPPDtbR54_5dN4RyceJTHlmSI-JGJH8FYNHiAm05LJftXh3H9al_5pow9lY34IEc6rDthOqVTTNfR_YoqAKhfTq5Gv7eN9mMMH61aRsD4Rd7eIdcxYabhfHRbkP3P8WbNTPunZN291c3_NRiklrClgzV7si6OE5cW9fLVlGkbY9jTmUpSCStXbemocOHwwQrE4Tyjv-T-rCjy38QH6ho9kb25uWBU-SMb1NfWOgQy13mtZHJx4icUhi-h2ZBd8yvyWYZ5yrkLhmbYFthfauMhfH_24dYH5CsoiOyrcKROfVEudhKODJXpS5vxjlUIC7ELCy8hJ7MR-bIC-TmX9-lJqJbgflEQHwRZJinslnOkbIZTXl947bgK_8V8SPN6xv-38rETZn4CXLK-WbzsOhmK9-MOOiXD6IN2oQMvFzaGurmuAFtfWBJzTztITUrvZCHPA=w2851-h1476-no)
+
+
+Finally, we need to make sure our app won't crash! We only want to execute the intent via **startActivityForResult()** if the activity exists. **intent.resolveActivity()** resolves the Intent into an ActivityInfo describing the activity that should execute the intent. If it is null, then we are in trouble. If all looks good, we call  **startActivityForResult()** with flags = 0, signifying that everything is ok!
+~~~
+if(intent.resolveActivity(getPackageManager()) != null) {  
+    startActivityForResult(intent, /* flags= */0);  
+}
+~~~
+
+Woohoo! If all goes well, Oski should be able to email Sujeeth now:
+
+![](https://lh3.googleusercontent.com/2uWalRub5JqJeDr92y0zUO6GzNA9RHJW7Fg3UOrg1MrgZuWm8C_aVW12Ctrrbe7ujbID7PuL7Wpm0UpYNlck7CRLLJ-kO9zjhVEDtrzTvhdm6ZBE86cNgh4msKuXtI5bbFsckHpVWw14ZqVdRlqzSwhk_JlEttS7lQUrKzaWA6G0hUSPx9Yccmj9GQ5jty1VWmOni6rMxEjMHhUlMnExux_j1ty8cwQU24NGgfB7TwvnlzL6e_A15vBmqwsG-5mF8BnkImUUq3LV6jmkBxWPajXaHz4swy16GrLBMfI0mG21wSYJKLrXleYMJR7afcrhTFmNG7kJj8xo91jUz0fzVa2YIkuLPC27wPtH6L8ovf-e59LTB7aCe07Mpx_hrJPOWeVD-MwX7P1zSjUpo752OhrrcmeHzvfffzdcMQjuH0sWxqUl1HM0llsSR7GTSMyHW6WpqqeRGUFhXkd9B62gv7sVS1X_F6t6zm6asuEbuGTN05FRjmf8KAFpzMdDdcx2wP_1Z2Gy_RdGaA6T7HiadKZ9VpG4SWJCbIJi54yIBDOWkp0vARDIr86pXBCCa5cHm7qSaFm01lUOR2Cd4a7iq-f90ugcOZx9ev1Ws1UDdQCOu4n34pYyZjMr3VDPwbfE8zHvoOkYD_kv3MP96vJxMU8jpk3DvWIRUlowTPZgIVfuxebMTzwYJb7MUE3RAtim-knG-5Tab1BoolGldWAP3DJyzLo7TgzKTNtQ8of1TxQI9dK8pg=w2830-h1634-no)
+![](https://lh3.googleusercontent.com/gqnDJZoSOLNg1apQVhN3diSOycvIc-XGLS4UXjSSxBhwkIi82Xi27ikccJEkgYYnosRes5-RemWUb4HGC1HAPnPxuI5wzyndx7LPl2hbsAP-EUWGobfEQwW95VxbtKEybffxg0oCOsNU350f9Q1esyqWpeCpPbKo7WQLULiJHgxwlKxyskcM0yTCpJ6yyFSxzixvqA6LqaWXKKehXy4gxWu_dZh_dixxRVOTqy1Vhp47gExvybfdl6kyhgtKXIDwPhte17tDjKriZwaEukVCqi-oFcnPaH7jP04QtSKRsz6bqUY8AQYXgdG9czZsOEI-EYr2iFyUM2l54KPkG7qafk9KmTor5Kl-YA9smketXQlL-nvvOUEaEmrhfjOvCKqHlnny6zT0uvm51nJi4fnHriiVsSdm4CjapapdYdNaTngCBjtGb--Ffsxn3NOgNabTScQRix7ZaOXdYdy41GUtFYumCx_ppmysdBpJD6ovbKJ_m7gMWAXDT2Q8yTqNEGvQ3gK3aaSxNz759Lz68TA9mTHoW712qqM6Bgv_D9Kad-6BRXYfJNjZ2NRb-yVVgoBlYy80YZ1AtqomHBM-t6_6XrYo1mjeWIUbTOxJ283FFJkaB2TuuY1lzpoC92zRISz_vhfvuURwIo-epcwzCCwOA9foSLjik9nItmb2xLglyxQRMNBVLk4YH6EpBr2llWBwPaOnvdz9ms86B-v8ZIrQDeTqsmwpnMtqbXToy0I_pkOiXyPtsA=w2712-h1674-no)
+![](https://lh3.googleusercontent.com/lcHSLpYB3M5iA1b_egCSPuyM-MadlfIYU2DJufQou_fNhkvFZpmEqj24igJHAhVWQVxtskBAp9RTVifQkPDgQ7dtnmIQVVcZewfrSdxmPPX_5ON_SPCVVsQheqgJDkFopy35V6rGCjk5xcW2ZeG6M0LI-KFYgG_8Ltm8BtjKgLlN9Ty1xxnSA2E2yP3USGDqadEBAD86JRzs2MSlHebxZeLKOPuCY_I7P32jCXvgNru9U0-7FXepRlM0_Fe5klSBt9u6-GFTTmCIbjVu4U3x_bT3BgxASfZFzC37iZTr7by94evimNZpFnE5_55fEtbZuJVhQQO8ExCI9lCRJSFBJB8vhFGKVQ95Mi2tSDHVbzIDVRjIwGz7Q_QO80kS1IH9FaivE-0qS6hDdkr4HdFbWDiU49Wsbr-acMZqX8yzPZu4GyL91jv1k7Y4WS2E6m7gk3huPg1ZRoIpUEWNxqr1x7fldL8sehzQv0vC3P6spWxK5xXu_pSIHAJu5uHh3s6edI8vHeBUSeekG4cIYpxMGUEIOw9uTc_w5OiFa5fEPqyJQRiHZ5hmh7x4-9exArtNFt1z_xlDeiErvJdkHTVxEWStuN8SUJ55CmhXMa4OKmBcXY_Y6kpq5vuK5OttchADE5Nrtmc09qoaSNig2HrTxnAoPSltED3VjSabD5XKveZFz5kBi7QbolWWqBQ_55XgYi-ahqWmd7h8-fL-fguDpiPkMaKhw-ZBcUF0T2LBKvVmLcHmQA=w2410-h1692-no)
+
+#### E. Coding Challenge 😮
+
+Create an additional EditText that says "Recipient Email" that allows the user to choose who to send their email to, and work through that logic. We don't want to overload poor Sujeeth's DMs, after all 😉
+
+### Step 7B. Introduce Facebook link Intent [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/f4bac671e3dba8f20152fa2890bafc3a3d851df1)
 
 ### Step 8. Add Firebase
 
@@ -178,3 +260,5 @@ TODO jessica: left off here.
 ## Additional Resources
 
 The codelab I recommend the most for learning about Android in-depth is the one provided by Google themselves: [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2). It is well-documented, maintained and kept-up-to-date, and even has a series of accompanying [video lectures](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB). 
+
+Additional Notable concepts: 
