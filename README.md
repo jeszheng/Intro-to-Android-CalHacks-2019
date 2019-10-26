@@ -8,7 +8,7 @@ This workshop will walk participants through building a simple Android app that 
 
 Q&A following the workshop is open for deeper questions about Android, questions about our experience navigating the hiring process, and our day-to-day lives as engineers :)
 
-**Setup**: Please install Android Studio. Download [here](https://developer.android.com/studio). Please do this ASAP, *preferably before the workshop*.
+**Setup**: Please install Android Studio. Download [here](https://developer.android.com/studio). Please do this ASAP, *preferably before the workshop*. If you are using a physical Android phone, make sure that USB debugging is enabled under settings and developer options and you [follow the setup instructions here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5).
 
 Workshop lead by Jessica Zheng and Sujeeth Jinesh.
 
@@ -21,6 +21,8 @@ The application we will build today is a simple app that shows a user profile an
 ### Step 0. Download and install Android Studio.
 [https://developer.android.com/studio](https://developer.android.com/studio)
 
+If you have a physical Android phone to test with, follow the setup instructions [here]. (https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5). Otherwise, briefly read on how to use a Android Virtual Device (AVD) [here](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4).
+
 ### Step 1. Get Hello World Set Up [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/dd2e1fbcb38c334a330edc21e16572dbf7e1bb77)
 Open Android Studio, start a new project, and choose "Empty Activity". Name the project a cool name like "CalHacksStarterApp". Click finish, and wait for the Gradle Sync and build to complete.
 
@@ -28,7 +30,29 @@ Open Android Studio, start a new project, and choose "Empty Activity". Name the 
 
 ![](https://lh3.googleusercontent.com/Z7FXLY4eQYiV3IcnlZvCrliuS1tdvAHy4_z9hdNBcncdDG8So2GoaTXZzD2yfHwvvMa9XW7GWU0FCv6_Lk3FzcPoDZgOrBIcDcbp6nKRHMEiTXd43sdVedTipRN3bfMvrI9XUiz1fhHOFhN8orJ0j7Q07J4Psc_ltGmmjBGJ8KcBPiXuPr2nafI8KBNtxaAwRsfQhBIjLqWngdfT4lbucd1r0V70WoM0YghMo7GMUZmm5xdXIRTvs2aPhRHi0OW4oxu48ueRM8eudUkrmpBKVZ3M3IsqpjTl_eNjUnBp96L28appdNsHGb6i9rXynr-WLRDflgFQsa95Ar976h5-IE-eylLc3ZbWMEjQxww50TZa3aynrwSN81Vvub8P8flo0T0BoPX0WYhT9IZoulFt-tre8dh6SizcMrT-NM9Ezsm78xTGdLymKvwZlZRy6IpGC2jTziWSbijFMOasJyURwhD_CXMGi9nyqpsOFysJQet3qEBbQ15YX73Bp71Qzo-z48-3PaYlu-Xc1BtRo7MNEZoiEttQ4A-ohMscldtlu-sujhMbe-ZaS8naqZmhrl9_cm-x3b8Ut7iWERU0rBHa02bSh9Gw1k2VrIqTqL5m6-v-IG9L2kq8yvOuhd0MiGXC5NeoPszRRO5tg3RRniQAbL9QO5b3UqzJ9Z7rq_cWZBuZcExrfr8kTKju=w1988-h1578-no)
 
-### Step 2. Use Linear Layout and introduce Text Alignment/Gravity
+Let's try running the app to see what we have now. We can use an [emulator device](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#4) or a [physical android phone](https://codelabs.developers.google.com/codelabs/android-training-hello-world/index.html?index=../../android-training#5) to test this. This is what we should see:
+
+![](https://lh3.googleusercontent.com/SGItDJWEShfRcVNJ8Iy0V2t7qmTf8_SQcpwDp1T57ce8JEVZM0yt5mFVJWWb7yfyniXqOAKIhZWcdr7fV9OB1bBOXGQpY-IW4KgZS4JRPaXdcEY8OzaKfki4zuA-1pQ6vRXjiraIEjj-LvKKEATvOoOeWjXzJ7DSAYTsbt13TWUi3prWfpzER_9mK31ym1wrtG0Fe-QgPEPPde_SMqHlhaGDvCc7O1GD8BBRjOozdS2CcIf6o64VZmzsKDMOprrVj8-rSgplPJ4TMOxrD3g0hAhJXmNjgCcInUvdltZRYbVWgYIWmmVCCTPE6LRsMyJWEfV8rDznm4EUz79hg6j1XGYgPAAM4TxwT-m0Zmm9ETaf8K3jgLHtH0DiJMWD_irObKaeAShGBdfqJbZEzPzd2x8JF9dx5fHRIzMdY--PydXexklO3UmmK9GCq7j4ORCQtsY50bwK-RqCZJ6L-pDrUaijQAmYmO9AUph2YdM9vr5Hm-SuDyiJSJ6XXVQPDZchsYomv6F53n3LtrsXdDgpD1__i7h5vWtxgCz4xv0cMNnoo4qRvBD_TE9MPoZDo87OP6GeBGGBNDQ6H7ANAIEI82N59SKBiSEhM9VhUBtWLxM7nQc0HegT5BNgNxXL8RnpogEfgT5FcnObvs9IZlwfjbELENS473gTELFaPXOGMVT19Z1JzqEQHYNPgFfpLzA09Fgy997gHjGbxBEChAkBfF4qlk-QHF_BySFzFhTD9ajIEFtIjw=w2993-h1778-no)
+
+### Step 2. Use Linear Layout and introduce Text Alignment/Gravity [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/9a1c6b6975b78a0c908998f48ac777134827ff88)
+
+
+#### A. Change the constraint layout to a linear layout in activity_main.xml
+
+A [`ConstraintLayout`](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout.html) allows you to create large and complex layouts with a flat view hierarchy (no nested view groups), but it is more complex than what we need. We will use a [LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout.html) instead. A LinearLayout  is a view group that aligns all children in a single direction, vertically or horizontally. You can specify the layout direction with the  [`android:orientation`](https://developer.android.com/reference/android/widget/LinearLayout.html#attr_android:orientation)  attribute. By default (as the case is in our app), the orientation is vertical.
+
+![](https://lh3.googleusercontent.com/yh7E-M4HqMBdH_m2umf9tp6Bl5wCkhFooRVLbdZspFfHVaRcrmwGlLHG-yXW22ow2GvyXOlvVOGBLuk1fnrJilDu4WSSph_f42wo4yqtffBdIdQVY7GjO3YwYICuFMIocE2Oh-38vIql0x0fqKPEXz-I6Dosh1LEymw2OwwY7T03ftQJPrVZoamrmnE7snS106kyvpcuxd90IFDb_hjWRIRbCypSqkGxbC5roQPWjF9OAFUM1R-uNGf4DhNOFiRGjrvOS3wlk7HB4jzRj3i277tdhtiPp7hFWptJO2JdrmIQw2rPyWZ9HcZ4SjeMoDYt4ztb8oUPCtnRpxm_R4SKuFLfS57XIOE-vmnFX81aeQxA-SJWEE01ezrz_Yj4pzQr5fhZuD0CEjVFw21BgRmggdwo4Qui6K6xZN96i3rR0w9Re3NP15NiCZGkPy8Xsus1rrDlppxgd4KqsbX0WLlUut8yNCYyksRLlvm-AYYWlcnAFJNHt5GcmNh-yUKvdYDnA5clWUcnppokSvXjeh943myjAOA5xOnM_jDJcq6LF3h7E2ffgcv5FcXAhnriEYGyueU0P9pWvLEPrKtv87LCgs8q9On7LpzgqPBa9u-_O4d3CgFUP3hLn-Ntz_kg-h9ukh_HcHFj7LEivlYwjJZRFYR07o1Rrm9VtGFUHj4UdCn23J0ZN2Fw0ed752i1-OczWzr9_lLnBYdTiuikXLWecycUUjbi-iMNbAhqkU6fW6peFqRVmA=w2936-h1276-no)
+
+Rebuild and re-run, the app should look like this:
+![](https://lh3.googleusercontent.com/7DfmgGg3Xhz6GKjSvw46w86zve4tPCtz7N1C5q6rh-gfhc7hwjVkj6FQ6DewQuvIyqCthlQJYDqMKNstcPDLg9N5edIQLpPAJ2lc7xw7YOhX3aIvcD23W0gnL7nZuvTuox1LFd5Z5bRG8_z2yDPB7gpNxNyYDCpThn4kWAycKq47etnoj9gHodICMN4_6N74l0mpWgb9uGhTEiGlpLCmssPArMUoEkVlckQ2dEP71ZtsnLubqXhIy1JzhjcbUdHt4F267jH2wuBaOJfNSvXiZD2SWDRgHtWc6Fzrdqi94Vuz1yFwZmRlfs9WfQ9xKLtQvpHKHReykbnvH-7B0CmvgIVyx1Br-cMepKq1TwPzapN3SPPqDmulJCIbNrUGFFQTXgWdF_tmX9vrk-JGOYBWWqcz_p2gDYll8eAG76WYsRaJoF1zqgwqsfwKUe-c2c8EDs7YvtAlo1IY16BC6DU2HlIijUNTrEHeoQeucePAPXBqmatD_iFC-xEXeLqY1aMjjV2AP1OxESkH7AABy3WiEGAHW6S1MOvJGZwdlWktIKLCGkX8wbzczN_O1Ski_xbEZ9vCRcZTcrxV903ah0bdQQP2kd6vWxTMVDzZTdZDS4NT93YbLPwx43pcgkuVB9mf7IVVf13YYs8hdTWKG861WCH883ERQiT8ZzEVMygelQDHC9JWCyWx_VG0eSYgpTR-QsnEq6X0DPg-MmmslQEIDGJti4ct-Vuaa-VDHMknWniEvVZk1g=w527-h311-no)
+
+#### B. Change the width of the TextView from "wrap_content" to "match_parent".
+
+A [TextView](https://developer.android.com/reference/android/widget/TextView) is a user interface element that displays text to the user -- currently it displays "Hello World." Changing the width to match_parent allows the TextView to take up the entire width of the screen (since the parent is the LinearLayout that takes up the entire width of the screen), rather than just the contents of the TextView itself (whose width would be a function of how long the text string is).
+
+![](https://lh3.googleusercontent.com/OdII854SRHlQMJNKMU29k70TblrFORCmD7t34yAmpvEGGB26qq8Ft2kKXmTcxJfYgSJ94DNJ18Uq-LC3Gg6SfL2ivik2-a4KMed4ApJuTRoA5j0rBhCGbgNslxGLNco9ODj3bovBMBGpn5YTYrAVmrMspt7zVpa8CxhAr-fimrtbOAc6rQhwavQhEOEpj8UN-s290FiumFnl-Gk7ftvXhUTa_gVWXRoAVw_hXL50Dr7tnYhYCp3zLzhZaO57dRXuolAK7GNsjlK5OLwoRpWwHdWgmhokKFOjrsvDh1tgOCt9-GMP-28tCFeBLpZo10lRw80S4y5EFwRzJYxFbzMAaN2WnRoAgQ4iE_FbxbQdZsGaSkrPVl-AS81wxhQKJTOv3OOkoATg4yQDpgjedXjNFgRtGf7YH8YhscJPpBo8lz_DqL8MBAAFxG4LhIcUJF88OJdiWZXRbVSsDEZEMQDkwGAwuTPGBB1NE5pL776RGSQl3ua6S3wJ7U6nFrVUW4Zp8fIFyCS4cvQPX3taXEMXbYw_IxljWQi6VagIAHyOR63j5eVRUFENF8BFKoi2p9CcEHfickn9VlShBozoDFWbdvc2a5twqdG_nQ5xvgVmvWLHSRE52Twt4sZVS7bq6aBEj74E3vzqMSJN6dytoQGT4N_XRM8qg8NxnlHrsnQ5Uhdl18onJuHBAbGtQ8oMGeIwXl6fajr4j59DA9Q1WTWgOp6VxS5zKQgB0vFfRbviSAKlx3Zf5g=w2056-h918-no)
+
+
 
 ### Step 3. Fix Linear layout orientation, Introduce Image View
 
@@ -42,6 +66,8 @@ Open Android Studio, start a new project, and choose "Empty Activity". Name the 
 
 ### Step 8. Add Non-functioning Buttons and Style
 
+
+
 ### Step 9. Add Write to Firebase
 
 ### Step 10. Finishing Touches
@@ -49,4 +75,4 @@ Open Android Studio, start a new project, and choose "Empty Activity". Name the 
 
 ## Additional Resources
 
-The codelab I recommend the most for learning about Android in-depth is the one provided by Google themselves: [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/overview-v2). It is well-documented, maintained and kept-up-to-date, and even has a series of accompanying [video lectures](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB). 
+The codelab I recommend the most for learning about Android in-depth is the one provided by Google themselves: [Android Developer Fundamentals](https://developer.android.com/courses/fundamentals-training/toc-v2). It is well-documented, maintained and kept-up-to-date, and even has a series of accompanying [video lectures](https://www.youtube.com/playlist?list=PLlyCyjh2pUe9wv-hU4my-Nen_SvXIzxGB). 
