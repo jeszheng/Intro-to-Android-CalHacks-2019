@@ -280,8 +280,47 @@ Create an additional EditText that says "Open URL" that allows the user to manua
 
 ### Step 8. Add Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/82829f92ac01796dbef979d87582da8d674c9c7b)
 
+#### A. Sign into your Google account using the top right icon.
+
+![](https://lh3.googleusercontent.com/Km9e9GtlD4pjbbU59yFwhyMBLbizQP_CDjTltuHTZ55YRbbQTtDK7kmYSB8ctOczgDlnDgGsqMTHY31UOTwg_PbJCwRRBENa4oYC-5HFdNOy3ukoxqO2KU-RBU7-pFlClYMkJBAe0VbUatIDHEzsbUMLwhWz0dMgYjT1QjTjjxXQsjwszD80PLX-i97Hx4uSzsgxbktSn7R5ROCjJA7l_LimhnYYlnd8hlUAXMiM-J26rTCE1Ola9F0XDB583m_hHptj2He8mHxCZ6MPzgzXCspyNNTk6F-6m2iutH9dNjjtmB1lwv67we2KSGljJpcF5yQGNPoPhV2Qf8qfEKaNRbuPOReBvam0r7eG_hochc9TF_T_4vcoXXY2uMb2yUdf7ZFY8NGVbnsu2fGEt6OS-d72N_Alhj8Rq098_BS6b3h-AGAHrweBDTwUCTn7gZp2NOs8XyROETuDfcWk5DL1gDAGDY4TWZIwmh-SaKvuJ_BN4pw9lfGqfBNj3c5-Q_ExvMsy9-MRFnXZk1mcZQ7gsA9SHKGSd4pUqKJ528n2FQf9sS_9evjPa_oX2oc2em89XQsvpR7x3SsNKc_BXlrdrZoQCEGqn5PVAuVNUd93__iZXehUoPhLzfAUFYIF4p3VEeDvAU0z24zS9mobqE5lkmocK1Axa9wz2m-IgYQCxfa_vvwP8CDxjAUtTrQp7aUhDXgK5QZILuAoKjzr3G24JHWozuI9N4KxI74L3Z-6tge2iWXL2g=w3106-h1126-no)
+
+#### B. Follow the Firebase database instructions.
+
+Go to Tools >> Firebase >> Realtime Database >> Save and Retrieve Data >> Follow Steps.
+
+#### (B1) Connect your app to Firebase
+Create a new Firebase Project, and give it a name such as CalHacksStarterApp. Click on "Connect to Firebase" -- This will create a project on [firebase.google.com](firebase.google.com)). 
+
+![](https://lh3.googleusercontent.com/N3LlsYVWMt0Hd0CaRKyVDN9McXlV3liTT1OrZHGRIB63GmZUZteVLs1G1kHX0XUPzjctB-FvszKQ-9jnoyDGcGTv1l_e5JwKuq7aMQjLYL5bhMDPAfuwZDi3rIxzMjzFr29h-gMUrSdJZRZbVzY-K0iWYNUBk7zvdiDcMowZSxK_gDQ2tQrRiw-rqz3zKphjCgOQHsdLpeZu-ENsf9XY0_xXJvS7jwlgYOq3ZrqRBxxQ-IUFpnnoJ_fTrXUlBuz97qWchQVe7v4wXz-yUFVkP7cxRmcMbwKYeP9foMA_apjYtmHXps41q_aTn5M7CTBwrg3EkUXoD6a067GP67UX8xbnjuG6BjRXASccvKyfwiEGT1LtWbnPXM0nWaQfBOR1fRKQtJOLQQcUJWu8fVF6uOHQ01YM8nm2y1EJIbfQNI7fj9mIV39vqsil3IHhxAJVpFQFGKvk6Gyx7O4yX2iHJkCjcBBH_-6UAwDJ0dIUAk9fDgSsDJTiwILVg9aPo1utFsKMSHQhnIwyY6QXHz52JsO0HXyKSQXs3LjHG7_TFlPLKDC7eQ5mf4VG7ORhqL8j2qGiqjC0VVGQzQ1Prviou8Zr5kbo-sMBi4N0hcL1b4vjZcmdNy9pfjnJwOMiZnotoNx1INhjG0fZMJkJLRAWvI7YvV4n_iznX0TdEjWWhhJpG2I2D2QRtEZJNHteG77yVBrKbTCJx6r7d1q8FMF7i8RfAZz9dhKKg_oPWomos-CkAj_FIw=w2790-h1778-no)
+
+![](https://lh3.googleusercontent.com/mhVUap2I1VyS3fJz0aZDT6BhSyzuaulbLedzZX8j2GQiZTygcde-L-2ESt32vHpK_yA0XjXtoySu87-WmnSBln7S4sOmevHAE1QvAlArI22S8Kq2se5xMnBA1McWqiBERVh3-2ZUphVlNLWeqX5agBx9sTkeI84dZ9xS2RWoaSLGEjSkO2Rwu8aqB6kK8Gz32xAUCNoe8Y5XOwk8D2n-dl0A31n9vwJ5vcZg07a226EUmPxLIWz6B6FY0HFZbSmSviNFVgP2LXwT5A2UMtQRqQ_DA9t4CjMyxzPZreF9k5SUmfmhMKd6evLR7ipv4lDFnfCH6l1bpzMGEVJFAE4lEiv5dy4WID4kF_DKbegRvMCeeypn7qFYu6b3sN0lBLxmiskrL_Z-oQ6BnpE-MNNx3ysym1kq-x6gGulahigscyjjLGFKIG_1_5Zg46hU0Xuq5xLvaXDsVFyEjTAY9gC9C-rPWKicOc4s_3aMTXc2Z7Dtb31wDEaeYuYIKlIKikUGHGyZF4c8MfwLHQds7Xp2xsxjjQEVhS0rTMq9T69G0binSc_as7m96s5M13fgi3V62HeNyIES8PE5yIE0-eBHVbLyhWFwiBRMfImN2qaPZG0YmsBSaf3QLw45Sn8gpm2hR1azGd2nOyt4L6Y4Oi6OxreJIZ5htm06RwysqIMSgFJPTGVi2nPd48wvX5_f8kD1_kZv2m7Eu8gI3xkGdtjBVVFY6ZXrlF6v4uvYimcnncl61XJXvg=w2693-h1778-no)
+
+Now go to firebase.google.com.  In [firebase.google.com](firebase.google.com) click the blue "Go to Console" button at the top right corner. You'll see your application (whatever you named it as, such as ) under "All Firebase projects" from which you can access the developer console.
+
+![](https://lh3.googleusercontent.com/OM_c6d3QkMRO33HvB3iJmaioanCRH1VGx_Hw9eJcoAeZYpGd8BuSP6MkmG2DJr68wkzBVxsALrcwApPXRpCENjKb3IX-R7--LUkYxmaskyoWisuvasp9Z787h8VmNNKlFp-y5VN8HKMFN9-_9toU4Ikke_XNxe5o2JPs9kwlG3N7bOeVcDY5gvU3zzoC1GfP8CtHVyVE6E6BxrmGGSMWQdaMyswa5hJKRA1kYs0MtEEXR5Km6QFAEN6uI2wOopn4eimvbTdPmfMhdTrrAzH8N-QPmdlW7xPnDyr3Y38O5mNL4usYBgZ4-xPTgYU29aySFNCWn9AavAvJgLxsH3dTxNoCeMy1oSWCiQZ45h63Hln8iZQsDe3FBMsY93IunHoEFpKKYQVBr-r0ONSi16Sj4SYIPbkiv5mtgmXS2y9ngfndo7jrFM5o4L6PwTWgILHShekTEQeaJI2T7mGiQJQzslJCBXMt-AD8n6lEgF_1vNbzxuOPZyev97mEJRs6VHmuuMicHjYX2ha4IyZA8SVMycb_RMjINxZDORbZGh6_QhaNt1ugBsHQcvvVXNXQLcKQwTuCPvxkrp1hiXFYB8Trzw2ZeLqEgUrz6yqs3ypP7TiY1_hecSMQSYMKo0pFTDMrdq-GOlSuqUzSkQjmc4v151O-q6juR3aRl6qc653DOl1lc3758mWfdTarMs0rhW7KARJCyPmcco9e_7lcr-1E-4pqQ0tzvS5tD8C2wLp5XsrP1z3uLA=w3346-h1756-no)
+
+In the console under the Developer>>Database section on the left navigation sidebar, scroll and find "Or choose Realtime Database." The advantage of a [realtime database](https://firebase.google.com/docs/database) is that it does not require you to use commits to explicitly save data.
+
+![](https://lh3.googleusercontent.com/LRLjbG-j6JPmsjlovV3W4JqQ_D-L5Jayjvbv-t4M43JYmUB-vls5m92Rssk-J8V1G7gjE8IswyYqdf5W_dj9nU7MteRJ5AReh5yjD3rXYQHRo4pVN6pB58yR1UsfKWytJauxalugk6tUm8WqeuaPZseSdgMZD960_DwSYt6hBEl8Mck5lEGJbK3Y82yye51akEbS5jFa37Vl7g7oNKWRGu5G48GRvzQ3oytg_KxQAxpXxUHztA5tSwtEW6s_vDsSQPi6RyBW5YBje8BbnMe24o3_12h3m54bP_JMPWMHnOY0tLC45lVymEnvyGrY5azoHpcCFVAu9OvBiFMg76ImVBl6J8X2i0_Nlh3yj0Te7o-ijK2KL_Xpx-NjLI_M3oj-0_ogFCOXeT3L38X3ZobrU_ZFj6ehI8NBS-D3bTI3d7aPaxRggtK0cvhfWWWwtF2d9kgI0RDJvFni4b42s8WZn2ubcDCec4UtJrjSE6uBjWhicwoIIWbX6RRfshTTK4ckMHYHJE16hyzHdpu21sC2dlQEkC5w7jjdTA6-iKfRYwGCW8AnYQyw0SXvA4g5Ahi9ZHNJbj9oaRGizd9oYbm3wOouRZptgAOdhGPi3kgVrHZZZDrMN3-MD7gtOL46pb3ZV1svRg8i9UdTz7aV35jnzP3wbIzbGpNTUqD09f55QLdy18Q3fx6yuyrUcNuQ71cNemdiQ_DMQ19FKwSwcloB1IR5uj7CLBO6Ttl_E6q5pfn0H2qBoQ=w3356-h1741-no)
+
+Click on the blue "**Create database**" button. A menu will pop up. Choose "Start in test mode." In practice, this is a terrible idea since it would allow everyone who has access to your database reference will have read and write capabilities YIKES. For the ease of this tutorial, we will choose this option since a locked database requires authentication which involves some extra setup. Hit enable.
+
+![](https://lh3.googleusercontent.com/DgMTsSLqddRepPjHNrY7P2_17p2fjEPSri2o5wYPSaQ-8cK_9KIE0kLF46BvR-V4CRWJOANM9fW-rMr220XIdyODkQ7cC9PhzdMJtemVN9fNBaXPyWt9x99xOagpR2Bb95INkf_-Sf02H03LUMSZ0DB4bs6ch08dahBRil8TFU1PaoLCos6Ju-le0o4p48iRxwf6MB272DF25G9DYzxH5um8nVxBzx2A9Cu_bGIZkcREYzrzbGj-GG45z51aN6nJA6enCXwPab5dEApHRjjkrznTUK7JDES9c_cECo3Us7k5jxPyVKN2OA8z4l9Q2nF2Z4BHzF816Qax89ANU8Q-t12oNTYuBTKqnwptGiAoiLkG4B9V9bLtAArUllBU9rFid-djtRbwhS79bS5r5yOdO443EcqqR2GLbdkoCEpdBNVUSm6eiZepw2SwmAR2pzzpZfS6dof5WQqLJD8GIlIEU7a3q902DrQFLgemZNqfTLcy2NWSb_KfSS4Lb6cl-6MFD0KtitX3FgLEIfhNHcVg7KdRkeq0agr9KLnnmBxjzE2V643nfrUXDCJsYEJTb3yO1kJVxFhx0JyJSpGPwuTAMxj0Zf1ef8VpCg0UfJ1dq3jdQmsZbn4S2BkSoLYpSpTYr-9Cb1RK4clQYlA6BzOZ5lfFY6OFE63_NUHSZsbMknhgmzk1mec3mpFHh8vsMiXYd8F7_bYQm06vnJIYfG83akS_kCQntxV_iSnEucqQWmD4KdvXeQ=w3354-h1736-no)
+
+#### (B2) Add the Realtime Database to your app.
+
+Now navigate back to Android Studio and click the button "Add the Realtime Database to your app", and click "Accept." This will add the necessary items to your build.gradle and app.gradle automatically. These are the libraries needed for Firebase.
+
+#### (B3) Configure Firebase Database Rules
+
+This step should be already handled for you. Please signal Sujeeth if you run into an error.
+
 
 ### Step 9. Add Write to Firebase [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/becb2714dcc695558a707da2310dce67c1547d31)
+
+[In Progress]
+
+
 
 ### Step 10. Finishing Touches [[link]](https://github.com/glossiergoogler/Intro-to-Android-CalHacks-2019/commit/1ec181e8b4e6c07fd8c0fd47b3fa8f11fb0d3bd4)
 
